@@ -1,3 +1,5 @@
+import { FaFacebookF, FaXTwitter, FaInstagram } from "react-icons/fa6";
+
 export type SocialLinksProps = {
   variant: string;
   facebookUrl: string;
@@ -16,8 +18,11 @@ export const SocialLinks = (props: SocialLinksProps) => {
       : "relative block float-left overflow-hidden rounded-[300px] top-[5px]";
   const aVariantClass =
     props.variant === "variant1"
-      ? "text-neutral-400 text-[15.6px] rounded-[100px] before:text-neutral-400 before:text-[15.6px]"
-      : "leading-[30px] text-center rounded-[300px] before:text-slate-700 before:text-[11px]";
+      ? "text-neutral-400 rounded-[100px] flex items-center justify-center"
+      : "leading-[30px] text-center rounded-[300px] flex items-center justify-center";
+  const iconSize = props.variant === "variant1" ? 18 : 16;
+  const iconColor =
+    props.variant === "variant1" ? "currentColor" : "currentColor";
 
   return (
     <ul
@@ -30,11 +35,10 @@ export const SocialLinks = (props: SocialLinksProps) => {
           aria-label="Link to Facebook"
           href={props.facebookUrl}
           title="Link to Facebook"
-          className={`relative box-border caret-transparent block float-left h-full max-w-full min-h-[30px] w-[30px] z-[2] before:accent-auto before:caret-transparent before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[30px] before:list-outside before:list-none before:pointer-events-auto before:text-center before:indent-[0px] before:normal-case before:visible before:border-separate before:font-entypo_fontello hover:text-slate-300 ${aVariantClass}`}
+          className={`relative box-border caret-transparent block float-left h-full max-w-full min-h-[30px] w-[30px] z-[2] hover:text-slate-300 transition-colors ${aVariantClass}`}
         >
-          <span className="box-border caret-transparent hidden">
-            Link to Facebook
-          </span>
+          <FaFacebookF size={iconSize} color={iconColor} />
+          <span className="sr-only">Link to Facebook</span>
         </a>
       </li>
       <li
@@ -44,9 +48,10 @@ export const SocialLinks = (props: SocialLinksProps) => {
           aria-label="Link to X"
           href={props.twitterUrl}
           title="Link to X"
-          className={`relative box-border caret-transparent block float-left h-full max-w-full min-h-[30px] w-[30px] z-[2] before:accent-auto before:caret-transparent before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[30px] before:list-outside before:list-none before:pointer-events-auto before:text-center before:indent-[0px] before:normal-case before:visible before:border-separate before:font-entypo_fontello hover:text-slate-300 ${aVariantClass}`}
+          className={`relative box-border caret-transparent block float-left h-full max-w-full min-h-[30px] w-[30px] z-[2] hover:text-slate-300 transition-colors ${aVariantClass}`}
         >
-          <span className="box-border caret-transparent hidden">Link to X</span>
+          <FaXTwitter size={iconSize} color={iconColor} />
+          <span className="sr-only">Link to X</span>
         </a>
       </li>
       <li
@@ -56,14 +61,12 @@ export const SocialLinks = (props: SocialLinksProps) => {
           aria-label="Link to Instagram"
           href={props.instagramUrl}
           title="Link to Instagram"
-          className={`relative box-border caret-transparent block float-left h-full max-w-full min-h-[30px] w-[30px] z-[2] before:accent-auto before:caret-transparent before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[30px] before:list-outside before:list-none before:pointer-events-auto before:text-center before:indent-[0px] before:normal-case before:visible before:border-separate before:font-entypo_fontello hover:text-slate-300 ${aVariantClass}`}
+          className={`relative box-border caret-transparent block float-left h-full max-w-full min-h-[30px] w-[30px] z-[2] hover:text-slate-300 transition-colors ${aVariantClass}`}
         >
-          <span className="box-border caret-transparent hidden">
-            Link to Instagram
-          </span>
+          <FaInstagram size={iconSize} color={iconColor} />
+          <span className="sr-only">Link to Instagram</span>
         </a>
       </li>
     </ul>
   );
 };
-
