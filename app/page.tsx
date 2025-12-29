@@ -1,5 +1,6 @@
 import { HeroSlider } from "@/components/sections-home/HeroSlider";
 import { IntroSection } from "@/components/sections-home/IntroSection";
+import { FeaturesSection } from "@/components/sections-home/FeaturesSection";
 import { MissionSection } from "@/components/sections-home/MissionSection";
 import { WorkplaceSection } from "@/components/sections-home/WorkplaceSection";
 import { IndividualSection } from "@/components/sections-home/IndividualSection";
@@ -20,6 +21,7 @@ export default function HomePage() {
       <div className="text-slate-700 bg-white box-border caret-transparent clear-both float-left w-full mt-2.5">
         <IntroSection />
       </div>
+      <FeaturesSection />
       <div className="text-slate-700 bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
         <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 md:max-w-[1310px] md:w-full md:px-[50px]">
           <MissionSection />
