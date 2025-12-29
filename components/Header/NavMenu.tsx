@@ -1,17 +1,6 @@
-"use client";
-
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 
 export const NavMenu = () => {
-  const pathname = usePathname();
-
-  const isActive = (path: string) => {
-    if (path === "/" && pathname === "/") return true;
-    if (path !== "/" && pathname.startsWith(path)) return true;
-    return false;
-  };
-
   return (
     <nav
       role="navigation"
@@ -28,17 +17,12 @@ export const NavMenu = () => {
           >
             <Link
               href="/"
-              className={`font-semibold bg-transparent box-border caret-transparent block h-[50px] leading-[50px] px-[13px] font-museo_sans_rounded md:bg-gray-100 hover:text-slate-400 ${
-                isActive("/") ? "text-slate-700" : ""
-              }`}
+              className="font-semibold bg-transparent box-border caret-transparent block h-[50px] leading-[50px] px-[13px] font-museo_sans_rounded md:bg-gray-100 hover:text-slate-400"
             >
               <span className="absolute border-l-slate-700 border-r-slate-700 box-border caret-transparent hidden h-0 left-[-3px] mt-[-3px] w-0 border-l-[3px] border-y-transparent border-y-[3px] top-[51%]"></span>
               <span className="box-border caret-transparent ml-[-13px] pl-[13px]">
                 HOME
               </span>
-              {isActive("/") && (
-                <span className="absolute text-white bg-slate-700 box-border caret-transparent h-0.5 w-full z-10 left-0 -bottom-px"></span>
-              )}
             </Link>
           </li>
           <li
