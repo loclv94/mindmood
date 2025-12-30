@@ -14,13 +14,7 @@ export const MobileNav = () => {
           {/* Mobile menu button placeholder */}
         </ul>
       </div>
-      <SocialLinks
-        variant="variant1"
-        facebookUrl="https://www.facebook.com/mindmoodai/"
-        twitterUrl="https://twitter.com/mindmoodai"
-        instagramUrl="https://www.instagram.com/mindmood.com/"
-      />
+      <SocialLinks />
     </nav>
   );
 };
-

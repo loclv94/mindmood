@@ -113,7 +113,7 @@ export const TestimonialSlider = () => {
               className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6"
             >
               {/* Profile Picture */}
-              <div className="relative w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden shrink-0">
+              <div className="relative w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden shrink-0 bg-slate-200 flex items-center justify-center">
                 <Image
                   src={currentTestimonial.imageUrl}
                   alt={currentTestimonial.imageAlt}
@@ -122,6 +122,7 @@ export const TestimonialSlider = () => {
                   className="object-cover rounded-full"
                   sizes="(max-width: 128px) 96px, 128px"
                   key={currentIndex}
+                  unoptimized
                 />
               </div>
 
