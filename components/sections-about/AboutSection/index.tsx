@@ -1,10 +1,11 @@
 import { Hero } from "./components/Hero";
 import { IntroText } from "./components/IntroText";
+import { Container } from "@/components/Container";
 
 export const AboutSection = () => {
   return (
     <div className="text-slate-700 bg-white box-border caret-transparent clear-both float-left w-full ml-0 md:w-[70%] md:ml-[15%]">
-      <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 md:max-w-[1310px] md:w-full md:px-[50px]">
+      <Container>
         <main
           role="main"
           className="relative caret-transparent clear-left float-left min-h-px w-full z-[1] mx-auto py-5"
@@ -16,7 +17,7 @@ export const AboutSection = () => {
             </div>
           </div>
         </main>
-      </div>
+      </Container>
     </div>
   );
 };

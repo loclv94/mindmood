@@ -10,6 +10,7 @@ import { ConfidentialitySection } from "../ConfidentialitySection";
 import { CTASection } from "../CTASection";
 import { DisclaimerSection } from "../DisclaimerSection";
 import { ContactSection } from "../ContactSection";
+import { Container } from "@/components/Container";
 
 export const MainContent = () => {
   return (
@@ -21,7 +22,7 @@ export const MainContent = () => {
         <IntroSection />
       </div>
       <div className="text-slate-700 bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
-        <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 md:max-w-[1310px] md:w-full md:px-[50px]">
+        <Container>
           <div className="relative caret-transparent clear-left float-left min-h-px w-full z-[1] mx-auto py-[50px]">
             <div className="box-border caret-transparent">
               <div className="box-border caret-transparent">
@@ -189,35 +190,35 @@ export const MainContent = () => {
               </div>
             </div>
           </div>
-        </div>
+        </Container>
       </div>
       <div className="relative text-slate-700 bg-white box-border caret-transparent clear-both border-slate-200 border-t">
-        <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 md:max-w-[1310px] md:w-full md:px-[50px]">
+        <Container>
           <ManifestoSection />
-        </div>
+        </Container>
       </div>
       <div className="text-slate-700 bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
-        <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 md:max-w-[1310px] md:w-full md:px-[50px]">
+        <Container>
           <CoreValuesSection />
-        </div>
+        </Container>
       </div>
       <div className="relative text-slate-700 bg-white box-border caret-transparent clear-both border-slate-200 border-t">
-        <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 md:max-w-[1310px] md:w-full md:px-[50px]">
+        <Container>
           <VideoSection />
-        </div>
+        </Container>
       </div>
       <div className="text-slate-700 bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
-        <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 md:max-w-[1310px] md:w-full md:px-[50px]">
+        <Container>
           <ConfidentialitySection />
-        </div>
+        </Container>
       </div>
       <div className="text-slate-700 bg-white box-border caret-transparent clear-both float-left w-full ml-0 md:w-[70%] md:ml-[15%]">
-        <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 md:max-w-[1310px] md:w-full md:px-[50px]">
+        <Container>
           <CTASection />
-        </div>
+        </Container>
       </div>
       <div className="relative text-slate-700 bg-white box-border caret-transparent clear-both border-slate-200 border-t">
-        <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 md:max-w-[1310px] md:w-full md:px-[50px]">
+        <Container>
           <div className="relative caret-transparent clear-left float-left min-h-px w-full z-[1] py-[50px]">
             <div className="box-border caret-transparent">
               <div className="box-border caret-transparent">
@@ -225,7 +226,7 @@ export const MainContent = () => {
                   <div className="box-border caret-transparent clear-both">
                     <h2 className="text-[26px] font-medium box-border caret-transparent leading-[36.4px] text-center mb-2.5 font-museomoderno"></h2>
                     <p className="text-neutral-600 text-[15.6px] font-light box-border caret-transparent leading-[24.96px] text-center my-[13.26px] font-museo_sans_rounded">
-                      Together, let’s redefine what mental health support looks
+                      Together, let's redefine what mental health support looks
                       like, one conversation at a time.
                     </p>
                   </div>
@@ -233,24 +234,24 @@ export const MainContent = () => {
               </div>
             </div>
           </div>
-        </div>
+        </Container>
       </div>
       <div className="text-slate-700 bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
-        <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 md:max-w-[1310px] md:w-full md:px-[50px]">
+        <Container>
           <DisclaimerSection />
-        </div>
+        </Container>
       </div>
       <div className="relative text-slate-700 bg-white box-border caret-transparent clear-both z-[1] border-slate-200 pt-[15px] pb-[30px] border-t">
-        <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 md:max-w-[1310px] md:w-full md:px-[50px]">
+        <Container>
           <ContactSection />
-        </div>
+        </Container>
       </div>
       <footer
         role="contentinfo"
         aria-label="Copyright and company info"
         className="relative text-slate-700 text-[11px] bg-white box-border caret-transparent clear-both z-[1] border-slate-200 -mt-px border-t"
       >
-        <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 py-[15px] md:max-w-[1310px] md:w-full md:px-[50px]">
+        <Container className="py-[15px]">
           <span className="box-border caret-transparent clear-both block text-center">
             ©Copyright 2025 MindMood.ai{" "}
           </span>
@@ -292,7 +293,7 @@ export const MainContent = () => {
               </a>
             </li>
           </ul>
-        </div>
+        </Container>
       </footer>
     </div>
   );

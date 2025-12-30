@@ -11,6 +11,7 @@ import { ConfidentialitySection } from "@/components/sections-home/Confidentiali
 import { CTASection } from "@/components/sections-home/CTASection";
 import { DisclaimerSection } from "@/components/DisclaimerSection";
 import { ContactSection } from "@/components/sections-home/ContactSection";
+import { Container } from "@/components/Container";
 
 export default function HomePage() {
   return (
@@ -23,54 +24,54 @@ export default function HomePage() {
       </div>
       <FeaturesSection />
       <div className="text-slate-700 bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
-        <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 md:max-w-[1310px] md:w-full md:px-[50px]">
+        <Container>
           <MissionSection />
-        </div>
+        </Container>
       </div>
       <div className="text-slate-700 bg-white box-border caret-transparent clear-both float-left w-full">
-        <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 md:max-w-[1310px] md:w-full md:px-[50px]">
+        <Container>
           <WorkplaceSection />
-        </div>
+        </Container>
       </div>
       <div className="text-slate-700 bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
-        <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 md:max-w-[1310px] md:w-full md:px-[50px]">
+        <Container>
           <IndividualSection />
-        </div>
+        </Container>
       </div>
       <div className="text-slate-700 bg-white box-border caret-transparent clear-both float-left w-full">
-        <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 md:max-w-[1310px] md:w-full md:px-[50px]">
+        <Container>
           <ManifestoSection />
-        </div>
+        </Container>
       </div>
       <div className="text-slate-700 bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
-        <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 md:max-w-[1310px] md:w-full md:px-[50px]">
+        <Container>
           <CoreValuesSection />
-        </div>
+        </Container>
       </div>
       <div className="relative text-slate-700 bg-white box-border caret-transparent clear-both border-slate-200 border-t">
-        <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 md:max-w-[1310px] md:w-full md:px-[50px]">
+        <Container>
           <VideoSection />
-        </div>
+        </Container>
       </div>
       <div className="text-slate-700 bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
-        <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 md:max-w-[1310px] md:w-full md:px-[50px]">
+        <Container>
           <ConfidentialitySection />
-        </div>
+        </Container>
       </div>
       <div className="text-slate-700 bg-white box-border caret-transparent clear-both float-left w-full ml-0 md:w-[70%] md:ml-[15%]">
-        <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 md:max-w-[1310px] md:w-full md:px-[50px]">
+        <Container>
           <CTASection />
-        </div>
+        </Container>
       </div>
       <div className="relative text-slate-700 bg-white box-border caret-transparent clear-both border-slate-200 border-t">
-        <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 md:max-w-[1310px] md:w-full md:px-[50px]">
+        <Container>
           <DisclaimerSection />
-        </div>
+        </Container>
       </div>
       <div className="text-slate-700 bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
-        <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 md:max-w-[1310px] md:w-full md:px-[50px]">
+        <Container>
           <ContactSection />
-        </div>
+        </Container>
       </div>
     </div>
   );

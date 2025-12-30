@@ -1,7 +1,9 @@
+import { Container } from "@/components/Container";
+
 export const PreFooter = () => {
   return (
     <div className="relative text-slate-700 bg-white box-border caret-transparent clear-both z-[1] border-slate-200 pt-[15px] pb-[30px] border-t">
-      <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 md:max-w-[1310px] md:w-full md:px-[50px]">
+      <Container>
         <div className="relative box-border caret-transparent clear-left float-left min-h-px w-full z-[1] mb-5 md:mb-0">
           <section className="relative box-border caret-transparent clear-both text-center overflow-hidden my-[30px]">
             <div className="box-border caret-transparent">
@@ -23,7 +25,7 @@ export const PreFooter = () => {
             <span className="box-border caret-transparent"></span>
           </section>
         </div>
-      </div>
+      </Container>
     </div>
   );
 };

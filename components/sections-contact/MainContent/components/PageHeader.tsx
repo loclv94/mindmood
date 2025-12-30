@@ -1,6 +1,8 @@
+import { Container } from "@/components/Container";
+
 export const PageHeader = () => {
   return (
-    <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 md:max-w-[1310px] md:w-full md:px-[50px]">
+    <Container>
       <main
         role="main"
         className="relative caret-transparent clear-left float-left min-h-px w-full z-[1] mx-auto py-5"
@@ -17,6 +19,6 @@ export const PageHeader = () => {
           </div>
         </div>
       </main>
-    </div>
+    </Container>
   );
 };

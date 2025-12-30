@@ -1,5 +1,6 @@
 import { PageHeader } from "./components/PageHeader";
 import { ContactSection } from "../ContactSection";
+import { Container } from "@/components/Container";
 
 export const MainContent = () => {
   return (
@@ -9,7 +10,7 @@ export const MainContent = () => {
       </div>
       <ContactSection />
       <div className="relative text-slate-700 bg-white box-border caret-transparent clear-both z-[1] border-slate-200 pt-[15px] pb-[30px] border-t">
-        <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 md:max-w-[1310px] md:w-full md:px-[50px]">
+        <Container>
           <div className="relative box-border caret-transparent clear-left float-left min-h-px w-full z-[1] mb-5 md:mb-0">
             <section className="relative box-border caret-transparent clear-both text-center overflow-hidden my-[30px]">
               <div className="box-border caret-transparent">
@@ -31,14 +32,14 @@ export const MainContent = () => {
               <span className="box-border caret-transparent"></span>
             </section>
           </div>
-        </div>
+        </Container>
       </div>
       <footer
         role="contentinfo"
         aria-label="Copyright and company info"
         className="relative text-slate-700 text-[11px] bg-white box-border caret-transparent clear-both z-[1] border-slate-200 -mt-px border-t"
       >
-        <div className="relative box-border caret-transparent clear-both max-w-[85%] w-[85%] mx-auto px-0 py-[15px] md:max-w-[1310px] md:w-full md:px-[50px]">
+        <Container className="py-[15px]">
           <span className="box-border caret-transparent clear-both block text-center">
             ©Copyright 2025 MindMood.ai{" "}
           </span>
@@ -80,7 +81,7 @@ export const MainContent = () => {
               </a>
             </li>
           </ul>
-        </div>
+        </Container>
       </footer>
     </div>
   );
