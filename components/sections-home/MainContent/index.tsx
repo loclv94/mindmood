@@ -18,7 +18,7 @@ export const MainContent = () => {
       <div className="relative text-slate-700 bg-white shadow-[rgba(0,0,0,0.1)_0px_1px_3px_0px_inset] box-border caret-transparent clear-both z-[1]">
         <HeroSlider />
       </div>
-      <div className="text-slate-700 bg-white box-border caret-transparent clear-both float-left w-full mt-2.5">
+      <div className="text-slate-700 bg-white box-border caret-transparent clear-both float-left w-full">
         <IntroSection />
       </div>
       <div className="text-slate-700 bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">

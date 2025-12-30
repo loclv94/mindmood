@@ -4,7 +4,7 @@ import { ValueCard } from "./components/ValueCard";
 export const CoreValuesSection = () => {
   return (
     <Container>
-      <section className="box-border caret-transparent">
+      <section className="">
         <div className="box-border caret-transparent clear-both">
           <h2 className="text-[26px] text-slate-700 font-medium box-border caret-transparent leading-[36.4px] text-center mb-2.5 font-museomoderno">
             <strong className="font-bold box-border caret-transparent">
@@ -14,7 +14,7 @@ export const CoreValuesSection = () => {
         </div>
       </section>
 
-      <div className="box-border caret-transparent block float-left table-fixed w-full mt-[50px] md:table">
+      <div className="box-border caret-transparent table-fixed w-full mt-[50px] md:table">
         <ValueCard
           imageUrl="https://c.animaapp.com/mjr46i29PMq8a8/assets/ChatGPT-Image-Jul-29-2025-at-05_55_40-PM-300x300.png"
           imageAlt=""
@@ -38,14 +38,14 @@ export const CoreValuesSection = () => {
         <div className="box-border caret-transparent table-cell w-[6%]"></div>
         <ValueCard imageUrl="https://c.animaapp.com/mjr46i29PMq8a8/assets/ChatGPT-Image-Jul-29-2025-at-07_08_01-PM-300x300.png" />
       </div>
-      <div className="relative box-border caret-transparent clear-both float-left h-[25px] leading-[25px] w-full my-[30px]">
+      <div className="relative box-border h-[25px] leading-[25px] w-full my-[30px]">
         <span className="absolute box-border caret-transparent block h-px w-full border-slate-200 -mt-px border-t left-0 top-2/4">
           <span className="box-border caret-transparent"></span>
         </span>
       </div>
       <section className="box-border caret-transparent">
         <div className="box-border caret-transparent clear-both">
-          <h2 className="text-[26px] font-medium box-border caret-transparent leading-[36.4px] text-center mb-2.5 font-museomoderno">
+          <h2 className="text-[26px] font-medium text-slate-700 leading-[36.4px] text-center mb-2.5 font-museomoderno">
             <strong className="font-bold box-border caret-transparent">
               What makes mindmood different
             </strong>
@@ -56,7 +56,7 @@ export const CoreValuesSection = () => {
           </p>
         </div>
       </section>
-      <div className="box-border caret-transparent block float-left table-fixed w-full mt-[50px] md:table">
+      <div className="box-border caret-transparent table-fixed w-full mt-[50px] md:table">
         <div className="relative bg-white shadow-[rgb(209,215,218)_0px_0px_10px_0px] box-border caret-transparent clear-left block min-h-px align-top w-full z-[1] mt-0 mb-5 p-[3%] rounded-[25px] md:table-cell md:w-[47%] md:mt-[50px] md:mb-0">
           <section className="box-border caret-transparent">
             <div className="box-border caret-transparent clear-both">
@@ -87,7 +87,7 @@ export const CoreValuesSection = () => {
           </section>
         </div>
       </div>
-      <div className="box-border caret-transparent block float-left table-fixed w-full mt-[50px] md:table">
+      <div className="box-border caret-transparent table-fixed w-full mt-[50px] md:table">
         <div className="relative bg-white shadow-[rgb(209,215,218)_0px_0px_10px_0px] box-border caret-transparent clear-left block min-h-px align-top w-full z-[1] mt-0 mb-5 p-[3%] rounded-[25px] md:table-cell md:w-[47%] md:mt-[50px] md:mb-0">
           <section className="box-border caret-transparent">
             <div className="box-border caret-transparent clear-both">
@@ -118,7 +118,7 @@ export const CoreValuesSection = () => {
           </section>
         </div>
       </div>
-      <div className="box-border caret-transparent block float-left table-fixed w-full mt-[50px] md:table">
+      <div className="box-border caret-transparent table-fixed w-full mt-[50px] md:table">
         <div className="relative bg-white shadow-[rgb(209,215,218)_0px_0px_10px_0px] box-border caret-transparent clear-left block min-h-px align-top w-full z-[1] mt-0 mb-5 p-[3%] rounded-[25px] md:table-cell md:w-[47%] md:mt-[50px] md:mb-0">
           <section className="box-border caret-transparent">
             <div className="box-border caret-transparent clear-both">

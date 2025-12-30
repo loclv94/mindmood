@@ -1,6 +1,6 @@
 export const ContactSection = () => {
   return (
-    <div className="relative box-border caret-transparent clear-left float-left min-h-px w-full z-[1] mb-5 md:mb-0">
+    <div className="relative min-h-px w-full z-[1] mb-5 md:mb-0">
       <section className="relative box-border caret-transparent clear-both text-center overflow-hidden my-[30px]">
         <div className="box-border caret-transparent">
           <p className="text-neutral-600 font-light box-border caret-transparent leading-[22.1px] my-[11.05px] font-museo_sans_rounded">
