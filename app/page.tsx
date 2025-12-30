@@ -15,39 +15,34 @@ import { Container } from "@/components/Container";
 
 export default function HomePage() {
   return (
-    <div className="bg-white box-border caret-transparent pt-0 md:pt-[168px]">
+    <div className="bg-gray-100 box-border caret-transparent pt-0 md:pt-[168px]">
       <div className="relative text-slate-700 bg-white shadow-[rgba(0,0,0,0.1)_0px_1px_3px_0px_inset] box-border caret-transparent clear-both z-[1]">
         <HeroSlider />
       </div>
       <div className="text-slate-700 bg-white box-border caret-transparent clear-both float-left w-full mt-2.5">
         <IntroSection />
       </div>
+
       <FeaturesSection />
-      <div className="text-slate-700 bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
-        <Container>
-          <MissionSection />
-        </Container>
-      </div>
-      <div className="text-slate-700 bg-white box-border caret-transparent clear-both float-left w-full">
-        <Container>
-          <WorkplaceSection />
-        </Container>
-      </div>
-      <div className="text-slate-700 bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
-        <Container>
-          <IndividualSection />
-        </Container>
-      </div>
-      <div className="text-slate-700 bg-white box-border caret-transparent clear-both float-left w-full">
-        <Container>
-          <ManifestoSection />
-        </Container>
-      </div>
-      <div className="text-slate-700 bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
-        <Container>
-          <CoreValuesSection />
-        </Container>
-      </div>
+
+      <MissionSection />
+
+      <div className="mt-12.5" />
+
+      <WorkplaceSection />
+
+      <div className="mt-12.5" />
+
+      <IndividualSection />
+
+      <div className="mt-12.5" />
+
+      <ManifestoSection />
+
+      <div className="mt-12.5" />
+
+      <CoreValuesSection />
+
       <div className="relative text-slate-700 bg-white box-border caret-transparent clear-both border-slate-200 border-t">
         <Container>
           <VideoSection />
