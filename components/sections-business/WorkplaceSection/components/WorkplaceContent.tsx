@@ -53,9 +53,8 @@ export const WorkplaceContent = () => {
           </h3>
         </div>
       </section>
-      <div className="box-border caret-transparent inline-block">
-        <ContactButton />
-      </div>
+
+      <ContactButton />
     </div>
   );
 };
