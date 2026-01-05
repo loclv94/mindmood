@@ -30,7 +30,7 @@ export const ScrollProgressBar = () => {
 
   return (
     <div
-      className="bg-brand h-1 transition-all duration-150 ease-out"
+      className="absolute bottom-0 left-0 right-0 bg-brand h-1 transition-all duration-150 ease-out z-100"
       style={{ width: `${scrollProgress}%` }}
       aria-label="Page scroll progress"
       role="progressbar"
