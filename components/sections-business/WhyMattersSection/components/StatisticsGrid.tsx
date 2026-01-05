@@ -1,53 +1,35 @@
+import Image from "next/image";
+import { Card } from "@/components/Card";
+
+const statistics = [
+  {
+    src: "https://c.animaapp.com/mjr478t1erIxQN/assets/ChatGPT-Image-Aug-20-2025-at-03_20_08-PM.png",
+    alt: "ChatGPT Image Aug 20, 2025 at 03_20_08 PM",
+  },
+  {
+    src: "https://c.animaapp.com/mjr478t1erIxQN/assets/ChatGPT-Image-Aug-20-2025-at-03_20_05-PM.png",
+    alt: "ChatGPT Image Aug 20, 2025 at 03_20_05 PM",
+  },
+  {
+    src: "https://c.animaapp.com/mjr478t1erIxQN/assets/ChatGPT-Image-Aug-20-2025-at-03_12_35-PM.png",
+    alt: "ChatGPT Image Aug 20, 2025 at 03_12_35 PM",
+  },
+];
+
 export const StatisticsGrid = () => {
   return (
-    <div className="block float-left table-fixed w-full mt-[50px] md:table">
-      <div className="relative bg-white shadow-[rgb(209,215,218)_0px_0px_10px_0px] clear-left block min-h-px align-top w-full z-[1] mt-0 mb-5 p-[3%] rounded-[25px] md:table-cell md:w-[29.3333%] md:mt-[50px] md:mb-0">
-        <div className="relative clear-both max-w-full text-center mx-auto">
-          <div className="relative inline-block max-w-full align-bottom mx-auto rounded-[3px]">
-            <div className="box-border caret-transparent">
-              <img
-                src="https://c.animaapp.com/mjr478t1erIxQN/assets/ChatGPT-Image-Aug-20-2025-at-03_20_08-PM.png"
-                alt=""
-                title="ChatGPT Image Aug 20, 2025 at 03_20_08 PM"
-                sizes="(max-width: 500px) 100vw, 500px"
-                className="relative aspect-[auto_500_/_300] max-w-full w-[500px] rounded-[3px]"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="table-cell w-[6%]"></div>
-      <div className="relative bg-white shadow-[rgb(209,215,218)_0px_0px_10px_0px] block min-h-px align-top w-full z-[1] ml-0 mt-0 mb-5 p-[3%] rounded-[25px] md:table-cell md:w-[29.3333%] md:ml-[6%] md:mt-[50px] md:mb-0">
-        <div className="relative clear-both max-w-full text-center mx-auto">
-          <div className="relative inline-block max-w-full align-bottom mx-auto rounded-[3px]">
-            <div className="box-border caret-transparent">
-              <img
-                src="https://c.animaapp.com/mjr478t1erIxQN/assets/ChatGPT-Image-Aug-20-2025-at-03_20_05-PM.png"
-                alt=""
-                title="ChatGPT Image Aug 20, 2025 at 03_20_05 PM"
-                sizes="(max-width: 500px) 100vw, 500px"
-                className="relative aspect-[auto_500_/_300] max-w-full w-[500px] rounded-[3px]"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="table-cell w-[6%]"></div>
-      <div className="relative bg-white shadow-[rgb(209,215,218)_0px_0px_10px_0px] block min-h-px align-top w-full z-[1] ml-0 mt-0 mb-5 p-[3%] rounded-[25px] md:table-cell md:w-[29.3333%] md:ml-[6%] md:mt-[50px] md:mb-0">
-        <div className="relative clear-both max-w-full text-center mx-auto">
-          <div className="relative inline-block max-w-full align-bottom mx-auto rounded-[3px]">
-            <div className="box-border caret-transparent">
-              <img
-                src="https://c.animaapp.com/mjr478t1erIxQN/assets/ChatGPT-Image-Aug-20-2025-at-03_12_35-PM.png"
-                alt=""
-                title="ChatGPT Image Aug 20, 2025 at 03_12_35 PM"
-                sizes="(max-width: 500px) 100vw, 500px"
-                className="relative aspect-[auto_500_/_300] max-w-full w-[500px] rounded-[3px]"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-18 mt-12.5">
+      {statistics.map((stat, index) => (
+        <Card key={stat.src} className="overflow-hidden p-6 md:p-8">
+          <Image
+            src={stat.src}
+            alt={stat.alt}
+            width={500}
+            height={300}
+            className="rounded-sm"
+          />
+        </Card>
+      ))}
     </div>
   );
 };

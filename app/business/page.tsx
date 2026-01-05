@@ -3,7 +3,6 @@ import { FeaturesSection } from "@/components/sections-business/FeaturesSection"
 import { WorkplaceSection } from "@/components/sections-business/WorkplaceSection";
 import { IntegrationSection } from "@/components/sections-business/IntegrationSection";
 import { TeamSection } from "@/components/sections-business/TeamSection";
-import { CarouselSection } from "@/components/sections-business/CarouselSection";
 import { WhyMattersSection } from "@/components/sections-business/WhyMattersSection";
 import { CTASection } from "@/components/sections-business/CTASection";
 import { ContactFormSection } from "@/components/sections-business/ContactFormSection";
@@ -31,21 +30,10 @@ export default function BusinessPage() {
 
       <TeamSection />
 
-      <div className="text-brand bg-gray-100 clear-both float-left min-h-[100px] w-full">
-        <Container>
-          <CarouselSection />
-        </Container>
-      </div>
-      <div className="text-brand bg-white clear-both float-left w-full">
-        <Container>
-          <WhyMattersSection />
-        </Container>
-      </div>
-      <div className="text-brand bg-white clear-both float-left w-full ml-0 md:w-[70%] md:ml-[15%]">
-        <Container>
-          <CTASection />
-        </Container>
-      </div>
+      <WhyMattersSection />
+
+      <CTASection />
+
       <div className="text-brand bg-gray-100 clear-both float-left min-h-[100px] w-full">
         <Container>
           <ContactFormSection />
