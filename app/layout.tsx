@@ -30,7 +30,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} text-neutral-700 text-[13px] not-italic normal-nums font-normal accent-auto box-border caret-transparent block tracking-[normal] leading-[21.45px] list-outside list-disc overflow-x-hidden overflow-y-auto pointer-events-auto text-start indent-[0px] normal-case visible border-separate font-questrial`}
       >
-        <div className="bg-white box-border caret-transparent w-full z-[2] overflow-hidden">
+        <div className="bg-white box-border caret-transparent w-full z-[2] overflow-hidden relative">
           <Header />
           {children}
           <Footer />

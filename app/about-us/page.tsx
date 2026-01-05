@@ -9,7 +9,7 @@ export const metadata = {
 
 export default function AboutUsPage() {
   return (
-    <div className="bg-white box-border caret-transparent pt-0 md:pt-[168px]">
+    <div className="bg-white">
       <AboutSection />
       <TeamSection />
       <ContactSection />

@@ -1,23 +1,25 @@
-import { Hero } from "./components/Hero";
-import { IntroText } from "./components/IntroText";
 import { Container } from "@/components/Container";
 
 export const AboutSection = () => {
   return (
-    <div className="text-slate-700 bg-white box-border caret-transparent clear-both float-left w-full ml-0 md:w-[70%] md:ml-[15%]">
-      <Container>
-        <main
-          role="main"
-          className="relative caret-transparent clear-left float-left min-h-px w-full z-[1] mx-auto py-5"
-        >
-          <div className="box-border caret-transparent">
-            <div className="box-border caret-transparent">
-              <Hero />
-              <IntroText />
-            </div>
-          </div>
-        </main>
-      </Container>
-    </div>
+    <Container className="py-5 font-museo_sans_rounded">
+      <div className="max-w-[1020px] mx-auto">
+        <h1 className="text-[19.5px] box-border caret-transparent leading-[27.3px] text-center mb-3.5 text-slate-700">
+          ABOUT US
+        </h1>
+        <div className="box-border caret-transparent clear-both">
+          <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] text-center my-[13.26px]">
+            At mindmood, we’re driven by a singular mission: to make mental
+            health support accessible and affordable for all. Recognizing the
+            diminishing stigma surrounding mental health, we’ve observed a surge
+            in individuals seeking assistance. However, with growing waiting
+            lists and financial constraints, many find themselves unable to
+            access the care they need. Moreover, existing online support often
+            falls short in catering to diverse identities, lacking a
+            sex-positive and LGBTQ+ affirming approach.
+          </p>
+        </div>
+      </div>
+    </Container>
   );
 };
