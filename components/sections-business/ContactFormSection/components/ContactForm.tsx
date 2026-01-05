@@ -8,10 +8,7 @@ export const ContactForm = () => {
         <p className="relative text-neutral-600 text-[15.6px] font-light clear-both float-none leading-[24.96px] w-full my-[11px] font-museo_sans_rounded md:float-left">
           <label className="relative text-[14.352px] font-bold block mb-[7px]">
             Name{" "}
-            <abbr
-              title="required"
-              className="text-brand box-border caret-transparent"
-            >
+            <abbr title="required" className="text-brand">
               *
             </abbr>
           </label>
@@ -19,7 +16,7 @@ export const ContactForm = () => {
             name="avia_1_1"
             type="text"
             defaultValue=""
-            className="text-neutral-400 text-[18.72px] font-normal leading-[normal] min-w-[50px] w-full border border-slate-200 p-[13px] rounded-sm border-solid"
+            className="text-neutral-400 text-[18.72px] font-normal leading-[normal] min-w-[50px] w-full border border-slate-200 p-[13px] rounded-sm border-solid focus:outline-none focus:border-slate-400"
           />
         </p>
         <p className="relative text-neutral-600 text-[15.6px] font-light clear-both float-none leading-[24.96px] w-full my-[11px] font-museo_sans_rounded md:float-left">
@@ -36,7 +33,7 @@ export const ContactForm = () => {
             name="avia_2_1"
             type="text"
             defaultValue=""
-            className="text-neutral-400 text-[18.72px] font-normal leading-[normal] min-w-[50px] w-full border border-slate-200 p-[13px] rounded-sm border-solid"
+            className="text-neutral-400 text-[18.72px] font-normal leading-[normal] min-w-[50px] w-full border border-slate-200 p-[13px] rounded-sm border-solid focus:outline-none focus:border-slate-400"
           />
         </p>
         <p className="relative text-neutral-600 text-[15.6px] font-light clear-both float-none leading-[24.96px] w-full my-[11px] font-museo_sans_rounded md:float-left">
@@ -53,7 +50,7 @@ export const ContactForm = () => {
             name="avia_3_1"
             type="text"
             defaultValue=""
-            className="text-neutral-400 text-[14.04px] font-normal leading-[normal] min-w-[50px] w-full border border-slate-200 p-[13px] rounded-sm border-solid"
+            className="text-neutral-400 text-[14.04px] font-normal leading-[normal] min-w-[50px] w-full border border-slate-200 p-[13px] rounded-sm border-solid focus:outline-none focus:border-slate-400"
           />
         </p>
         <p className="relative text-neutral-600 text-[15.6px] font-light clear-both float-none leading-[24.96px] w-full my-[11px] font-museo_sans_rounded md:float-left">
@@ -68,7 +65,7 @@ export const ContactForm = () => {
           </label>
           <textarea
             name="avia_4_1"
-            className="text-neutral-400 text-[18.72px] font-normal leading-[28.08px] min-h-[60px] min-w-[50px] w-full border-slate-200 p-[13px] rounded-sm"
+            className="text-neutral-400 text-[18.72px] font-normal leading-[28.08px] min-h-[60px] min-w-[50px] w-full border border-slate-200 p-[13px] rounded-sm border-solid focus:outline-none focus:border-slate-400"
           ></textarea>
         </p>
         <p className="relative text-neutral-600 text-[15.6px] font-light clear-both float-none leading-[24.96px] w-full my-[11px] font-museo_sans_rounded md:float-left">

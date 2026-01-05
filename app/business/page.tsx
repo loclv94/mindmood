@@ -34,21 +34,7 @@ export default function BusinessPage() {
 
       <CTASection />
 
-      <div className="text-brand bg-gray-100 clear-both float-left min-h-[100px] w-full">
-        <Container>
-          <ContactFormSection />
-        </Container>
-      </div>
-      <div className="relative text-brand bg-white clear-both border-slate-200 border-t">
-        <Container>
-          <DisclaimerSection />
-        </Container>
-      </div>
-      <div className="text-brand bg-gray-100 clear-both float-left min-h-[100px] w-full">
-        <Container>
-          <CompanyInfoSection />
-        </Container>
-      </div>
+      <ContactFormSection />
     </>
   );
 }
