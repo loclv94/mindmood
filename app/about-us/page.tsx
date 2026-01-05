@@ -1,6 +1,6 @@
-import { AboutSection } from "@/components/sections-about/AboutSection";
-import { TeamSection } from "@/components/sections-about/TeamSection";
-import { ContactSection } from "@/components/sections-about/ContactSection";
+import { AboutSection } from "@/components/layouts/sections/sections-about/AboutSection";
+import { TeamSection } from "@/components/layouts/sections/sections-about/TeamSection";
+import { ContactSection } from "@/components/layouts/sections/sections-about/ContactSection";
 
 export const metadata = {
   title: "About Us - MindMood",

@@ -1,6 +1,4 @@
-import { ContactSection } from "@/components/sections-contact/ContactSection";
-import { PreFooter } from "@/components/sections-contact/PreFooter";
-import { Container } from "@/components/Container";
+import { ContactSection } from "@/components/layouts/sections/sections-contact/ContactSection";
 
 export const metadata = {
   title: "Contact Us - MindMood",
@@ -9,13 +7,12 @@ export const metadata = {
 
 export default function ContactPage() {
   return (
-    <div className="bg-white pt-0 md:pt-[168px]">
-      <div className="text-brand bg-white clear-both float-left w-full mt-2.5">
-        <Container>
-          <ContactSection />
-        </Container>
+    <>
+      <div className="text-brand text-center text-[26px] font-medium leading-[36.4px] py-5 bg-white w-full">
+        CONTACT
       </div>
-      <PreFooter />
-    </div>
+
+      <ContactSection />
+    </>
   );
 }

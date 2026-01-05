@@ -1,14 +1,11 @@
-import { HeroSection } from "@/components/sections-business/HeroSection";
-import { FeaturesSection } from "@/components/sections-business/FeaturesSection";
-import { WorkplaceSection } from "@/components/sections-business/WorkplaceSection";
-import { IntegrationSection } from "@/components/sections-business/IntegrationSection";
-import { TeamSection } from "@/components/sections-business/TeamSection";
-import { WhyMattersSection } from "@/components/sections-business/WhyMattersSection";
-import { CTASection } from "@/components/sections-business/CTASection";
-import { ContactFormSection } from "@/components/sections-business/ContactFormSection";
-import { CompanyInfoSection } from "@/components/sections-business/CompanyInfoSection";
-import { DisclaimerSection } from "@/components/DisclaimerSection";
-import { Container } from "@/components/Container";
+import { HeroSection } from "@/components/layouts/sections/sections-business/HeroSection";
+import { FeaturesSection } from "@/components/layouts/sections/sections-business/FeaturesSection";
+import { WorkplaceSection } from "@/components/layouts/sections/sections-business/WorkplaceSection";
+import { IntegrationSection } from "@/components/layouts/sections/sections-business/IntegrationSection";
+import { TeamSection } from "@/components/layouts/sections/sections-business/TeamSection";
+import { WhyMattersSection } from "@/components/layouts/sections/sections-business/WhyMattersSection";
+import { CTASection } from "@/components/layouts/sections/sections-business/CTASection";
+import { ContactFormSection } from "@/components/layouts/sections/sections-business/ContactFormSection";
 
 export const metadata = {
   title: "Business Solutions - MindMood",

@@ -1,0 +1,64 @@
+import Image from "next/image";
+import Link from "next/link";
+
+import { Container } from "@/components/layouts/Container";
+import { Card } from "@/components/ui/cards/Card";
+
+export const WorkplaceSection = () => {
+  return (
+    <Container>
+      {/* Title */}
+      <Card>
+        <h2 className="text-3xl md:text-4xl font-bold bg-white text-brand text-center">
+          Workplace Support
+        </h2>
+      </Card>
+
+      <div className="mt-12.5" />
+
+      {/* Two Column Layout */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+        {/* Left Card - Text Content */}
+        <Card>
+          <div className="clear-both">
+            <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] my-[13.26px] font-museo_sans_rounded">
+              mindmood makes it simple to care for your employees with fast,
+              compassionate mental health support. Our AI offers 24/7 guidance
+              and knows when to connect someone with a human therapist or
+              escalate to crisis care, so your team always feels safe and
+              supported.
+            </p>
+            <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] my-[13.26px] font-museo_sans_rounded">
+              Seamlessly integrate mindmood into your systems to create a
+              healthier, happier workplace where mental wellbeing is a priority.
+            </p>
+          </div>
+          <div className="clear-both text-center mt-6">
+            <Link
+              href="/business"
+              aria-label="mindmood for the workplace"
+              className="relative text-white font-semibold bg-brand hover:bg-brand inline-block leading-[15.6px] max-w-full min-w-20 pt-[12px] pb-[12px] px-6 rounded-[8px] font-museomoderno transition-colors"
+            >
+              <span className="relative z-10">mindmood for the workplace</span>
+            </Link>
+          </div>
+        </Card>
+
+        {/* Right Card - Image Content */}
+        <Card className="overflow-hidden p-6 md:p-8" padding="custom">
+          <div className="relative clear-both max-w-full mx-auto">
+            <div className="relative w-full pb-[50%] rounded-[3px] overflow-hidden">
+              <Image
+                src="https://c.animaapp.com/mjr46i29PMq8a8/assets/ChatGPT-Image-Aug-21-2025-04_22_39-PM-1-1030x515.png"
+                alt="Workplace mental health support - two people having a supportive conversation in an office setting"
+                fill
+                className="object-cover rounded-[3px]"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+            </div>
+          </div>
+        </Card>
+      </div>
+    </Container>
+  );
+};

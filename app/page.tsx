@@ -1,16 +1,16 @@
-import { HeroSlider } from "@/components/sections-home/HeroSlider";
-import { IntroSection } from "@/components/sections-home/IntroSection";
-import { FeaturesSection } from "@/components/sections-home/FeaturesSection";
-import { MissionSection } from "@/components/sections-home/MissionSection";
-import { WorkplaceSection } from "@/components/sections-home/WorkplaceSection";
-import { IndividualSection } from "@/components/sections-home/IndividualSection";
-import { ManifestoSection } from "@/components/sections-home/ManifestoSection";
-import { CoreValuesSection } from "@/components/sections-home/CoreValuesSection";
-import { TestimonialSlider } from "@/components/sections-home/TestimonialSlider";
-import { ConfidentialitySection } from "@/components/sections-home/ConfidentialitySection";
-import { CTASection } from "@/components/sections-home/CTASection";
-import { DisclaimerSection } from "@/components/DisclaimerSection";
-import { TogetherSection } from "@/components/sections-home/TogetherSection";
+import { HeroSlider } from "@/components/layouts/sections/sections-home/HeroSlider";
+import { IntroSection } from "@/components/layouts/sections/sections-home/IntroSection";
+import { FeaturesSection } from "@/components/layouts/sections/sections-home/FeaturesSection";
+import { MissionSection } from "@/components/layouts/sections/sections-home/MissionSection";
+import { WorkplaceSection } from "@/components/layouts/sections/sections-home/WorkplaceSection";
+import { IndividualSection } from "@/components/layouts/sections/sections-home/IndividualSection";
+import { ManifestoSection } from "@/components/layouts/sections/sections-home/ManifestoSection";
+import { CoreValuesSection } from "@/components/layouts/sections/sections-home/CoreValuesSection";
+import { TestimonialSlider } from "@/components/layouts/sections/sections-home/TestimonialSlider";
+import { ConfidentialitySection } from "@/components/layouts/sections/sections-home/ConfidentialitySection";
+import { CTASection } from "@/components/layouts/sections/sections-home/CTASection";
+import { DisclaimerSection } from "@/components/layouts/sections/DisclaimerSection";
+import { TogetherSection } from "@/components/layouts/sections/sections-home/TogetherSection";
 
 export default function HomePage() {
   return (
