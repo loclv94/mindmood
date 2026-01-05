@@ -28,13 +28,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} text-neutral-700 text-[13px] not-italic normal-nums font-normal accent-auto box-border caret-transparent block tracking-[normal] leading-[21.45px] list-outside list-disc overflow-x-hidden overflow-y-auto pointer-events-auto text-start indent-[0px] normal-case visible border-separate font-questrial`}
+        className={`${geistSans.variable} ${geistMono.variable} relative text-neutral-700 text-[13px] not-italic normal-nums font-normal accent-auto tracking-[normal] leading-[21.45px] list-outside list-disc overflow-x-hidden overflow-y-auto pointer-events-auto text-start indent-0 normal-case visible border-separate font-questrial`}
       >
-        <div className="bg-gray-100 box-border caret-transparent w-full z-[2] overflow-hidden relative">
-          <Header />
-          {children}
-          <Footer />
-        </div>
+        <Header />
+        {children}
+        <Footer />
       </body>
     </html>
   );
