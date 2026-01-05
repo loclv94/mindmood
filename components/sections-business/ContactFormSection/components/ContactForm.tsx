@@ -13,7 +13,7 @@ export const ContactForm = () => {
             Name{" "}
             <abbr
               title="required"
-              className="text-slate-700 box-border caret-transparent"
+              className="text-brand box-border caret-transparent"
             >
               *
             </abbr>
@@ -30,7 +30,7 @@ export const ContactForm = () => {
             E-Mail{" "}
             <abbr
               title="required"
-              className="text-slate-700 box-border caret-transparent"
+              className="text-brand box-border caret-transparent"
             >
               *
             </abbr>
@@ -47,7 +47,7 @@ export const ContactForm = () => {
             Subject{" "}
             <abbr
               title="required"
-              className="text-slate-700 box-border caret-transparent"
+              className="text-brand box-border caret-transparent"
             >
               *
             </abbr>
@@ -64,7 +64,7 @@ export const ContactForm = () => {
             Message{" "}
             <abbr
               title="required"
-              className="text-slate-700 box-border caret-transparent"
+              className="text-brand box-border caret-transparent"
             >
               *
             </abbr>
@@ -84,7 +84,7 @@ export const ContactForm = () => {
           <input
             type="submit"
             value="Submit"
-            className="text-white text-[14.352px] font-semibold bg-slate-700 box-border caret-transparent leading-[normal] min-w-[142px] text-center text-nowrap border-indigo-950 px-5 py-4 rounded-sm border-t-0 border-x-0 border-b font-museomoderno hover:bg-slate-300 hover:border-slate-400"
+            className="text-white text-[14.352px] font-semibold bg-brand box-border caret-transparent leading-[normal] min-w-[142px] text-center text-nowrap border-indigo-950 px-5 py-4 rounded-sm border-t-0 border-x-0 border-b font-museomoderno hover:bg-slate-300 hover:border-slate-400"
           />
         </p>
       </fieldset>

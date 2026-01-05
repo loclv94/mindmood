@@ -94,7 +94,7 @@ export const TestimonialSlider = () => {
               handlePrevious();
             }}
             aria-label="Previous testimonial"
-            className="absolute left-0 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-700 transition-colors z-20 cursor-pointer bg-transparent border-none p-2 pointer-events-auto"
+            className="absolute left-0 top-1/2 -translate-y-1/2 text-slate-400 hover:text-brand transition-colors z-20 cursor-pointer bg-transparent border-none p-2 pointer-events-auto"
           >
             <ChevronLeft size={32} />
           </button>
@@ -103,7 +103,7 @@ export const TestimonialSlider = () => {
           <div>
             <blockquote
               key={currentIndex}
-              className="text-slate-700 italic text-lg md:text-xl text-center px-12 font-museo_sans_rounded pointer-events-none"
+              className="text-brand italic text-lg md:text-xl text-center px-12 font-museo_sans_rounded pointer-events-none"
             >
               &ldquo;{currentTestimonial.quote}&rdquo;
             </blockquote>
@@ -128,10 +128,10 @@ export const TestimonialSlider = () => {
 
               {/* Attribution */}
               <div className="text-center md:text-left">
-                <p className="text-slate-700 font-semibold text-base md:text-lg font-museo_sans_rounded">
+                <p className="text-brand font-semibold text-base md:text-lg font-museo_sans_rounded">
                   {currentTestimonial.name}
                 </p>
-                <p className="text-slate-700 text-sm md:text-base font-museo_sans_rounded">
+                <p className="text-brand text-sm md:text-base font-museo_sans_rounded">
                   {currentTestimonial.title}
                 </p>
                 <p className="text-slate-600 text-xs md:text-sm font-museo_sans_rounded">
@@ -149,7 +149,7 @@ export const TestimonialSlider = () => {
               handleNext();
             }}
             aria-label="Next testimonial"
-            className="absolute right-0 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-700 transition-colors z-20 cursor-pointer bg-transparent border-none p-2 pointer-events-auto"
+            className="absolute right-0 top-1/2 -translate-y-1/2 text-slate-400 hover:text-brand transition-colors z-20 cursor-pointer bg-transparent border-none p-2 pointer-events-auto"
           >
             <ChevronRight size={32} />
           </button>

@@ -8,7 +8,7 @@ export const IndividualSection = () => {
   return (
     <Container>
       <Card>
-        <h2 className="text-3xl md:text-4xl font-bold bg-white text-slate-700 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold bg-white text-brand text-center">
           Individual Support
         </h2>
       </Card>
@@ -53,7 +53,7 @@ export const IndividualSection = () => {
             <Link
               href="/contact"
               aria-label="mindmood for the workplace"
-              className="relative text-white font-semibold bg-slate-700 hover:bg-slate-800 box-border caret-transparent inline-block leading-[15.6px] max-w-full min-w-20 pt-[12px] pb-[12px] px-6 rounded-[8px] font-museomoderno transition-colors"
+              className="relative text-white font-semibold bg-brand hover:bg-brand box-border caret-transparent inline-block leading-[15.6px] max-w-full min-w-20 pt-[12px] pb-[12px] px-6 rounded-[8px] font-museomoderno transition-colors"
             >
               <span className="relative box-border caret-transparent z-10">
                 Get support now

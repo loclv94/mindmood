@@ -6,7 +6,7 @@ export const CoreValuesSection = () => {
     <Container>
       <section className="">
         <div className="box-border caret-transparent clear-both">
-          <h2 className="text-[26px] text-slate-700 font-medium box-border caret-transparent leading-[36.4px] text-center mb-2.5 font-museomoderno">
+          <h2 className="text-[26px] text-brand font-medium box-border caret-transparent leading-[36.4px] text-center mb-2.5 font-museomoderno">
             <strong className="font-bold box-border caret-transparent">
               That’s why mindmood is built with:
             </strong>
@@ -45,7 +45,7 @@ export const CoreValuesSection = () => {
       </div>
       <section className="box-border caret-transparent">
         <div className="box-border caret-transparent clear-both">
-          <h2 className="text-[26px] font-medium text-slate-700 leading-[36.4px] text-center mb-2.5 font-museomoderno">
+          <h2 className="text-[26px] font-medium text-brand leading-[36.4px] text-center mb-2.5 font-museomoderno">
             <strong className="font-bold box-border caret-transparent">
               What makes mindmood different
             </strong>

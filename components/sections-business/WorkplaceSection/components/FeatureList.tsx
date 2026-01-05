@@ -18,7 +18,7 @@ export const FeatureList = (props: FeatureListProps) => {
         </div>
         <div className="relative bg-gray-100 shadow-[rgba(0,0,0,0.07)_0px_0px_15px_0px_inset] box-border caret-transparent clear-both h-[30px] leading-[30px] w-full overflow-hidden rounded-[3px]">
           <div className="absolute bg-size-[32px_32px] box-border caret-transparent h-full w-full rounded-[3px] left-0 top-0">
-            <div className="absolute bg-slate-700 bg-size-[32px_32px] box-border caret-transparent h-full w-full rounded-[3px] left-0 top-0"></div>
+            <div className="absolute bg-brand bg-size-[32px_32px] box-border caret-transparent h-full w-full rounded-[3px] left-0 top-0"></div>
           </div>
         </div>
       </div>
@@ -33,7 +33,7 @@ export const FeatureList = (props: FeatureListProps) => {
         </div>
         <div className="relative bg-gray-100 shadow-[rgba(0,0,0,0.07)_0px_0px_15px_0px_inset] box-border caret-transparent clear-both h-[30px] leading-[30px] w-full overflow-hidden rounded-[3px]">
           <div className="absolute bg-size-[32px_32px] box-border caret-transparent h-full w-full rounded-[3px] left-0 top-0">
-            <div className="absolute bg-slate-700 bg-size-[32px_32px] box-border caret-transparent h-full w-full rounded-[3px] left-0 top-0"></div>
+            <div className="absolute bg-brand bg-size-[32px_32px] box-border caret-transparent h-full w-full rounded-[3px] left-0 top-0"></div>
           </div>
         </div>
       </div>

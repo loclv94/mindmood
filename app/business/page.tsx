@@ -18,63 +18,53 @@ export const metadata = {
 
 export default function BusinessPage() {
   return (
-    <div className="bg-white box-border caret-transparent pt-0 md:pt-[168px]">
-      <div className="relative text-slate-700 bg-white shadow-[rgba(0,0,0,0.1)_0px_1px_3px_0px_inset] box-border caret-transparent clear-both z-[1]"></div>
-      <div className="text-slate-700 bg-white box-border caret-transparent clear-both float-left w-full mt-2.5">
-        <Container>
-          <HeroSection />
-        </Container>
-      </div>
-      <div className="text-slate-700 bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
-        <Container>
-          <FeaturesSection />
-        </Container>
-      </div>
-      <div className="text-slate-700 bg-white box-border caret-transparent clear-both float-left w-full">
-        <Container>
-          <WorkplaceSection />
-        </Container>
-      </div>
-      <div className="text-slate-700 bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
+    <>
+      <HeroSection />
+
+      <FeaturesSection />
+
+      <WorkplaceSection />
+
+      <div className="text-brand bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
         <Container>
           <IntegrationSection />
         </Container>
       </div>
-      <div className="text-slate-700 bg-white box-border caret-transparent clear-both float-left w-full">
+      <div className="text-brand bg-white box-border caret-transparent clear-both float-left w-full">
         <Container>
           <TeamSection />
         </Container>
       </div>
-      <div className="text-slate-700 bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
+      <div className="text-brand bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
         <Container>
           <CarouselSection />
         </Container>
       </div>
-      <div className="text-slate-700 bg-white box-border caret-transparent clear-both float-left w-full">
+      <div className="text-brand bg-white box-border caret-transparent clear-both float-left w-full">
         <Container>
           <WhyMattersSection />
         </Container>
       </div>
-      <div className="text-slate-700 bg-white box-border caret-transparent clear-both float-left w-full ml-0 md:w-[70%] md:ml-[15%]">
+      <div className="text-brand bg-white box-border caret-transparent clear-both float-left w-full ml-0 md:w-[70%] md:ml-[15%]">
         <Container>
           <CTASection />
         </Container>
       </div>
-      <div className="text-slate-700 bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
+      <div className="text-brand bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
         <Container>
           <ContactFormSection />
         </Container>
       </div>
-      <div className="relative text-slate-700 bg-white box-border caret-transparent clear-both border-slate-200 border-t">
+      <div className="relative text-brand bg-white box-border caret-transparent clear-both border-slate-200 border-t">
         <Container>
           <DisclaimerSection />
         </Container>
       </div>
-      <div className="text-slate-700 bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
+      <div className="text-brand bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
         <Container>
           <CompanyInfoSection />
         </Container>
       </div>
-    </div>
+    </>
   );
 }

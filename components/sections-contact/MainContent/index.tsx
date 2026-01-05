@@ -5,11 +5,11 @@ import { Container } from "@/components/Container";
 export const MainContent = () => {
   return (
     <div className="bg-white box-border caret-transparent pt-0 md:pt-[168px]">
-      <div className="text-slate-700 bg-white box-border caret-transparent clear-both float-left w-full">
+      <div className="text-brand bg-white box-border caret-transparent clear-both float-left w-full">
         <PageHeader />
       </div>
       <ContactSection />
-      <div className="relative text-slate-700 bg-white box-border caret-transparent clear-both z-[1] border-slate-200 pt-[15px] pb-[30px] border-t">
+      <div className="relative text-brand bg-white box-border caret-transparent clear-both z-[1] border-slate-200 pt-[15px] pb-[30px] border-t">
         <Container>
           <div className="relative box-border caret-transparent clear-left float-left min-h-px w-full z-[1] mb-5 md:mb-0">
             <section className="relative box-border caret-transparent clear-both text-center overflow-hidden my-[30px]">
@@ -23,7 +23,7 @@ export const MainContent = () => {
                 <p className="text-neutral-600 font-light box-border caret-transparent leading-[22.1px] my-[11.05px] font-museo_sans_rounded">
                   <a
                     href="https://mindmood.com/privacy-policy/"
-                    className="text-slate-700 box-border caret-transparent max-w-full hover:text-slate-300"
+                    className="text-brand box-border caret-transparent max-w-full hover:text-slate-300"
                   >
                     Privacy Policy
                   </a>
@@ -37,7 +37,7 @@ export const MainContent = () => {
       <footer
         role="contentinfo"
         aria-label="Copyright and company info"
-        className="relative text-slate-700 text-[11px] bg-white box-border caret-transparent clear-both z-[1] border-slate-200 -mt-px border-t"
+        className="relative text-brand text-[11px] bg-white box-border caret-transparent clear-both z-[1] border-slate-200 -mt-px border-t"
       >
         <Container className="py-[15px]">
           <span className="box-border caret-transparent clear-both block text-center">
@@ -49,7 +49,7 @@ export const MainContent = () => {
                 aria-label="Link to Facebook"
                 href="https://www.facebook.com/mindmoodai/"
                 title="Link to Facebook"
-                className="relative box-border caret-transparent block float-left h-full leading-[30px] max-w-full min-h-[30px] text-center w-[30px] z-[2] rounded-[300px] before:accent-auto before:caret-transparent before:text-slate-700 before:text-[11px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[30px] before:list-outside before:list-none before:pointer-events-auto before:text-center before:indent-[0px] before:normal-case before:visible before:border-separate before:font-entypo_fontello hover:text-slate-300"
+                className="relative box-border caret-transparent block float-left h-full leading-[30px] max-w-full min-h-[30px] text-center w-[30px] z-[2] rounded-[300px] before:accent-auto before:caret-transparent before:text-brand before:text-[11px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[30px] before:list-outside before:list-none before:pointer-events-auto before:text-center before:indent-[0px] before:normal-case before:visible before:border-separate before:font-entypo_fontello hover:text-slate-300"
               >
                 <span className="box-border caret-transparent hidden">
                   Link to Facebook
@@ -61,7 +61,7 @@ export const MainContent = () => {
                 aria-label="Link to X"
                 href="https://twitter.com/mindmoodai"
                 title="Link to X"
-                className="relative box-border caret-transparent block float-left h-full leading-[30px] max-w-full min-h-[30px] text-center w-[30px] z-[2] rounded-[300px] before:accent-auto before:caret-transparent before:text-slate-700 before:text-[11px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[30px] before:list-outside before:list-none before:pointer-events-auto before:text-center before:indent-[0px] before:normal-case before:visible before:border-separate before:font-entypo_fontello hover:text-slate-300"
+                className="relative box-border caret-transparent block float-left h-full leading-[30px] max-w-full min-h-[30px] text-center w-[30px] z-[2] rounded-[300px] before:accent-auto before:caret-transparent before:text-brand before:text-[11px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[30px] before:list-outside before:list-none before:pointer-events-auto before:text-center before:indent-[0px] before:normal-case before:visible before:border-separate before:font-entypo_fontello hover:text-slate-300"
               >
                 <span className="box-border caret-transparent hidden">
                   Link to X
@@ -73,7 +73,7 @@ export const MainContent = () => {
                 aria-label="Link to Instagram"
                 href="https://www.instagram.com/mindmood.com/"
                 title="Link to Instagram"
-                className="relative box-border caret-transparent block float-left h-full leading-[30px] max-w-full min-h-[30px] text-center w-[30px] z-[2] rounded-[300px] before:accent-auto before:caret-transparent before:text-slate-700 before:text-[11px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[30px] before:list-outside before:list-none before:pointer-events-auto before:text-center before:indent-[0px] before:normal-case before:visible before:border-separate before:font-entypo_fontello hover:text-slate-300"
+                className="relative box-border caret-transparent block float-left h-full leading-[30px] max-w-full min-h-[30px] text-center w-[30px] z-[2] rounded-[300px] before:accent-auto before:caret-transparent before:text-brand before:text-[11px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[30px] before:list-outside before:list-none before:pointer-events-auto before:text-center before:indent-[0px] before:normal-case before:visible before:border-separate before:font-entypo_fontello hover:text-slate-300"
               >
                 <span className="box-border caret-transparent hidden">
                   Link to Instagram

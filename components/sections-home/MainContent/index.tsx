@@ -15,13 +15,13 @@ import { Container } from "@/components/Container";
 export const MainContent = () => {
   return (
     <div className="bg-white box-border caret-transparent pt-0 md:pt-[168px]">
-      <div className="relative text-slate-700 bg-white shadow-[rgba(0,0,0,0.1)_0px_1px_3px_0px_inset] box-border caret-transparent clear-both z-[1]">
+      <div className="relative text-brand bg-white shadow-[rgba(0,0,0,0.1)_0px_1px_3px_0px_inset] box-border caret-transparent clear-both z-[1]">
         <HeroSlider />
       </div>
-      <div className="text-slate-700 bg-white box-border caret-transparent clear-both float-left w-full">
+      <div className="text-brand bg-white box-border caret-transparent clear-both float-left w-full">
         <IntroSection />
       </div>
-      <div className="text-slate-700 bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
+      <div className="text-brand bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
         <Container>
           <div className="relative caret-transparent clear-left float-left min-h-px w-full z-[1] mx-auto py-[50px]">
             <div className="box-border caret-transparent">
@@ -192,32 +192,32 @@ export const MainContent = () => {
           </div>
         </Container>
       </div>
-      <div className="relative text-slate-700 bg-white box-border caret-transparent clear-both border-slate-200 border-t">
+      <div className="relative text-brand bg-white box-border caret-transparent clear-both border-slate-200 border-t">
         <Container>
           <ManifestoSection />
         </Container>
       </div>
-      <div className="text-slate-700 bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
+      <div className="text-brand bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
         <Container>
           <CoreValuesSection />
         </Container>
       </div>
-      <div className="relative text-slate-700 bg-white box-border caret-transparent clear-both border-slate-200 border-t">
+      <div className="relative text-brand bg-white box-border caret-transparent clear-both border-slate-200 border-t">
         <Container>
           <VideoSection />
         </Container>
       </div>
-      <div className="text-slate-700 bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
+      <div className="text-brand bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
         <Container>
           <ConfidentialitySection />
         </Container>
       </div>
-      <div className="text-slate-700 bg-white box-border caret-transparent clear-both float-left w-full ml-0 md:w-[70%] md:ml-[15%]">
+      <div className="text-brand bg-white box-border caret-transparent clear-both float-left w-full ml-0 md:w-[70%] md:ml-[15%]">
         <Container>
           <CTASection />
         </Container>
       </div>
-      <div className="relative text-slate-700 bg-white box-border caret-transparent clear-both border-slate-200 border-t">
+      <div className="relative text-brand bg-white box-border caret-transparent clear-both border-slate-200 border-t">
         <Container>
           <div className="relative caret-transparent clear-left float-left min-h-px w-full z-[1] py-[50px]">
             <div className="box-border caret-transparent">
@@ -236,12 +236,12 @@ export const MainContent = () => {
           </div>
         </Container>
       </div>
-      <div className="text-slate-700 bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
+      <div className="text-brand bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
         <Container>
           <DisclaimerSection />
         </Container>
       </div>
-      <div className="relative text-slate-700 bg-white box-border caret-transparent clear-both z-[1] border-slate-200 pt-[15px] pb-[30px] border-t">
+      <div className="relative text-brand bg-white box-border caret-transparent clear-both z-[1] border-slate-200 pt-[15px] pb-[30px] border-t">
         <Container>
           <ContactSection />
         </Container>
@@ -249,7 +249,7 @@ export const MainContent = () => {
       <footer
         role="contentinfo"
         aria-label="Copyright and company info"
-        className="relative text-slate-700 text-[11px] bg-white box-border caret-transparent clear-both z-[1] border-slate-200 -mt-px border-t"
+        className="relative text-brand text-[11px] bg-white box-border caret-transparent clear-both z-[1] border-slate-200 -mt-px border-t"
       >
         <Container className="py-[15px]">
           <span className="box-border caret-transparent clear-both block text-center">
@@ -261,7 +261,7 @@ export const MainContent = () => {
                 aria-label="Link to Facebook"
                 href="https://www.facebook.com/mindmoodai/"
                 title="Link to Facebook"
-                className="relative box-border caret-transparent block float-left h-full leading-[30px] max-w-full min-h-[30px] text-center w-[30px] z-[2] rounded-[300px] before:accent-auto before:caret-transparent before:text-slate-700 before:text-[11px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[30px] before:list-outside before:list-none before:pointer-events-auto before:text-center before:indent-[0px] before:normal-case before:visible before:border-separate before:font-entypo_fontello hover:text-slate-300"
+                className="relative box-border caret-transparent block float-left h-full leading-[30px] max-w-full min-h-[30px] text-center w-[30px] z-[2] rounded-[300px] before:accent-auto before:caret-transparent before:text-brand before:text-[11px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[30px] before:list-outside before:list-none before:pointer-events-auto before:text-center before:indent-[0px] before:normal-case before:visible before:border-separate before:font-entypo_fontello hover:text-slate-300"
               >
                 <span className="box-border caret-transparent hidden">
                   Link to Facebook
@@ -273,7 +273,7 @@ export const MainContent = () => {
                 aria-label="Link to X"
                 href="https://twitter.com/mindmoodai"
                 title="Link to X"
-                className="relative box-border caret-transparent block float-left h-full leading-[30px] max-w-full min-h-[30px] text-center w-[30px] z-[2] rounded-[300px] before:accent-auto before:caret-transparent before:text-slate-700 before:text-[11px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[30px] before:list-outside before:list-none before:pointer-events-auto before:text-center before:indent-[0px] before:normal-case before:visible before:border-separate before:font-entypo_fontello hover:text-slate-300"
+                className="relative box-border caret-transparent block float-left h-full leading-[30px] max-w-full min-h-[30px] text-center w-[30px] z-[2] rounded-[300px] before:accent-auto before:caret-transparent before:text-brand before:text-[11px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[30px] before:list-outside before:list-none before:pointer-events-auto before:text-center before:indent-[0px] before:normal-case before:visible before:border-separate before:font-entypo_fontello hover:text-slate-300"
               >
                 <span className="box-border caret-transparent hidden">
                   Link to X
@@ -285,7 +285,7 @@ export const MainContent = () => {
                 aria-label="Link to Instagram"
                 href="https://www.instagram.com/mindmood.com/"
                 title="Link to Instagram"
-                className="relative box-border caret-transparent block float-left h-full leading-[30px] max-w-full min-h-[30px] text-center w-[30px] z-[2] rounded-[300px] before:accent-auto before:caret-transparent before:text-slate-700 before:text-[11px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[30px] before:list-outside before:list-none before:pointer-events-auto before:text-center before:indent-[0px] before:normal-case before:visible before:border-separate before:font-entypo_fontello hover:text-slate-300"
+                className="relative box-border caret-transparent block float-left h-full leading-[30px] max-w-full min-h-[30px] text-center w-[30px] z-[2] rounded-[300px] before:accent-auto before:caret-transparent before:text-brand before:text-[11px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[30px] before:list-outside before:list-none before:pointer-events-auto before:text-center before:indent-[0px] before:normal-case before:visible before:border-separate before:font-entypo_fontello hover:text-slate-300"
               >
                 <span className="box-border caret-transparent hidden">
                   Link to Instagram

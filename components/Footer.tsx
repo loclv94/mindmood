@@ -10,12 +10,14 @@ export const Footer = () => {
       aria-label="Copyright and company info"
       className="relativetext-[11px] bg-white"
     >
+      <hr />
+
       <ContactSection />
 
       <hr />
 
       <Container className="py-[15px] px-4">
-        <span className="box-border caret-transparent clear-both block text-center text-slate-700">
+        <span className="box-border caret-transparent clear-both block text-center text-brand">
           ©Copyright 2025 MindMood.ai{" "}
         </span>
         <SocialLinks />

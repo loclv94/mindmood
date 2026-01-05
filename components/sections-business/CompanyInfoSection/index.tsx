@@ -12,7 +12,7 @@ export const CompanyInfoSection = () => {
           <p className="text-neutral-600 font-light box-border caret-transparent leading-[22.1px] my-[11.05px] font-museo_sans_rounded">
             <a
               href="https://mindmood.com/privacy-policy/"
-              className="text-slate-700 box-border caret-transparent max-w-full hover:text-slate-300"
+              className="text-brand box-border caret-transparent max-w-full hover:text-slate-300"
             >
               Privacy Policy
             </a>

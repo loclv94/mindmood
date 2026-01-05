@@ -5,7 +5,7 @@ export const AboutSection = () => {
     <div className="bg-white">
       <Container className="py-5 font-museo_sans_rounded">
         <div className="max-w-[1020px] mx-auto">
-          <h1 className="text-[19.5px] box-border caret-transparent leading-[27.3px] text-center mb-3.5 text-slate-700">
+          <h1 className="text-[19.5px] box-border caret-transparent leading-[27.3px] text-center mb-3.5 text-brand">
             ABOUT US
           </h1>
           <div className="box-border caret-transparent clear-both">
