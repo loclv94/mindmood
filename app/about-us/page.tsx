@@ -9,10 +9,10 @@ export const metadata = {
 
 export default function AboutUsPage() {
   return (
-    <div className="bg-white">
+    <>
       <AboutSection />
       <TeamSection />
       <ContactSection />
-    </div>
+    </>
   );
 }
