@@ -20,8 +20,8 @@ export const IndividualSection = () => {
         {/* Left Card - Text Content */}
 
         <Card className="overflow-hidden p-6 md:p-8" padding="custom">
-          <div className="relative box-border caret-transparent clear-both max-w-full mx-auto">
-            <div className="relative box-border caret-transparent w-full pb-[50%] rounded-[3px] overflow-hidden">
+          <div className="relative clear-both max-w-full mx-auto">
+            <div className="relative w-full pb-[50%] rounded-[3px] overflow-hidden">
               <Image
                 src="https://c.animaapp.com/mjr46i29PMq8a8/assets/ChatGPT-Image-Aug-21-2025-04_22_39-PM-1-1030x515.png"
                 alt="Workplace mental health support - two people having a supportive conversation in an office setting"
@@ -35,29 +35,27 @@ export const IndividualSection = () => {
 
         {/* Right Card - Image Content */}
         <Card>
-          <div className="box-border caret-transparent clear-both">
-            <p className="text-neutral-600 text-[15.6px] font-light box-border caret-transparent leading-[24.96px] my-[13.26px] font-museo_sans_rounded">
+          <div className="clear-both">
+            <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] my-[13.26px] font-museo_sans_rounded">
               Whether it’s stress at work, relationship struggles, or just
               needing someone to talk to, mindmood is here for you.
             </p>
-            <p className="text-neutral-600 text-[15.6px] font-light box-border caret-transparent leading-[24.96px] my-[13.26px] font-museo_sans_rounded">
+            <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] my-[13.26px] font-museo_sans_rounded">
               Open up freely and explore your thoughts without fear of judgment.
             </p>
-            <p className="text-neutral-600 text-[15.6px] font-light box-border caret-transparent leading-[24.96px] my-[13.26px] font-museo_sans_rounded">
+            <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] my-[13.26px] font-museo_sans_rounded">
               Our AI-powered support provides a safe, caring space to help you
               navigate your emotions and find guidance whenever you need it
               most.
             </p>
           </div>
-          <div className="box-border caret-transparent clear-both text-center mt-6">
+          <div className="clear-both text-center mt-6">
             <Link
               href="/contact"
               aria-label="mindmood for the workplace"
-              className="relative text-white font-semibold bg-brand hover:bg-brand box-border caret-transparent inline-block leading-[15.6px] max-w-full min-w-20 pt-[12px] pb-[12px] px-6 rounded-[8px] font-museomoderno transition-colors"
+              className="relative text-white font-semibold bg-brand hover:bg-brand inline-block leading-[15.6px] max-w-full min-w-20 pt-[12px] pb-[12px] px-6 rounded-[8px] font-museomoderno transition-colors"
             >
-              <span className="relative box-border caret-transparent z-10">
-                Get support now
-              </span>
+              <span className="relative z-10">Get support now</span>
             </Link>
           </div>
         </Card>

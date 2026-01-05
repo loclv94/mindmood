@@ -1,7 +1,7 @@
 export const MapContainer = () => {
   return (
-    <div className="box-border caret-transparent pr-[5%] pt-[5%]">
-      <div className="relative bg-no-repeat bg-cover box-border caret-transparent clear-both h-[400px] overflow-hidden bg-center">
+    <div className="pr-[5%] pt-[5%]">
+      <div className="relative bg-no-repeat bg-cover clear-both h-[400px] overflow-hidden bg-center">
         <div className="absolute caret-transparent h-full w-full left-0 top-0">
           <div className="caret-transparent">
             <button
@@ -21,143 +21,143 @@ export const MapContainer = () => {
                 <table className="bg-gray-100 caret-transparent w-full border-collapse">
                   <tbody className="bg-gray-100 box-border caret-transparent">
                     <tr className="bg-gray-100 box-border caret-transparent">
-                      <td className="text-black bg-gray-100 box-border caret-transparent text-end text-nowrap align-middle border-slate-200 p-1.5 border-l border-t">
+                      <td className="text-black bg-gray-100 text-end text-nowrap align-middle border-slate-200 p-1.5 border-l border-t">
                         <kbd
                           aria-label="Left arrow"
-                          className="relative bg-gray-200 box-border caret-transparent inline-block leading-4 min-h-5 min-w-5 text-center text-nowrap mx-0.5 px-1 py-0.5 rounded-sm font-google_sans_text"
+                          className="relative bg-gray-200 inline-block leading-4 min-h-5 min-w-5 text-center text-nowrap mx-0.5 px-1 py-0.5 rounded-sm font-google_sans_text"
                         >
                           ←
                         </kbd>
                       </td>
                       <td
                         aria-label="Move left."
-                        className="text-black bg-gray-100 box-border caret-transparent text-nowrap align-middle border-slate-200 p-1.5 border-t"
+                        className="text-black bg-gray-100 text-nowrap align-middle border-slate-200 p-1.5 border-t"
                       >
                         Move left
                       </td>
                     </tr>
                     <tr className="text-neutral-400 bg-white box-border caret-transparent">
-                      <td className="text-black bg-white box-border caret-transparent text-end text-nowrap align-middle border-slate-200 p-1.5 border-l">
+                      <td className="text-black bg-white text-end text-nowrap align-middle border-slate-200 p-1.5 border-l">
                         <kbd
                           aria-label="Right arrow"
-                          className="relative bg-gray-200 box-border caret-transparent inline-block leading-4 min-h-5 min-w-5 text-center text-nowrap mx-0.5 px-1 py-0.5 rounded-sm font-google_sans_text"
+                          className="relative bg-gray-200 inline-block leading-4 min-h-5 min-w-5 text-center text-nowrap mx-0.5 px-1 py-0.5 rounded-sm font-google_sans_text"
                         >
                           →
                         </kbd>
                       </td>
                       <td
                         aria-label="Move right."
-                        className="text-black bg-white box-border caret-transparent text-nowrap align-middle p-1.5"
+                        className="text-black bg-white text-nowrap align-middle p-1.5"
                       >
                         Move right
                       </td>
                     </tr>
                     <tr className="bg-gray-100 box-border caret-transparent">
-                      <td className="text-black bg-gray-100 box-border caret-transparent text-end text-nowrap align-middle border-slate-200 p-1.5 border-l">
+                      <td className="text-black bg-gray-100 text-end text-nowrap align-middle border-slate-200 p-1.5 border-l">
                         <kbd
                           aria-label="Up arrow"
-                          className="relative bg-gray-200 box-border caret-transparent inline-block leading-4 min-h-5 min-w-5 text-center text-nowrap mx-0.5 px-1 py-0.5 rounded-sm font-google_sans_text"
+                          className="relative bg-gray-200 inline-block leading-4 min-h-5 min-w-5 text-center text-nowrap mx-0.5 px-1 py-0.5 rounded-sm font-google_sans_text"
                         >
                           ↑
                         </kbd>
                       </td>
                       <td
                         aria-label="Move up."
-                        className="text-black bg-gray-100 box-border caret-transparent text-nowrap align-middle p-1.5"
+                        className="text-black bg-gray-100 text-nowrap align-middle p-1.5"
                       >
                         Move up
                       </td>
                     </tr>
                     <tr className="text-neutral-400 bg-white box-border caret-transparent">
-                      <td className="text-black bg-white box-border caret-transparent text-end text-nowrap align-middle border-slate-200 p-1.5 border-l">
+                      <td className="text-black bg-white text-end text-nowrap align-middle border-slate-200 p-1.5 border-l">
                         <kbd
                           aria-label="Down arrow"
-                          className="relative bg-gray-200 box-border caret-transparent inline-block leading-4 min-h-5 min-w-5 text-center text-nowrap mx-0.5 px-1 py-0.5 rounded-sm font-google_sans_text"
+                          className="relative bg-gray-200 inline-block leading-4 min-h-5 min-w-5 text-center text-nowrap mx-0.5 px-1 py-0.5 rounded-sm font-google_sans_text"
                         >
                           ↓
                         </kbd>
                       </td>
                       <td
                         aria-label="Move down."
-                        className="text-black bg-white box-border caret-transparent text-nowrap align-middle p-1.5"
+                        className="text-black bg-white text-nowrap align-middle p-1.5"
                       >
                         Move down
                       </td>
                     </tr>
                     <tr className="bg-gray-100 box-border caret-transparent">
-                      <td className="text-black bg-gray-100 box-border caret-transparent text-end text-nowrap align-middle border-slate-200 p-1.5 border-l">
-                        <kbd className="relative bg-gray-200 box-border caret-transparent inline-block leading-4 min-h-5 min-w-5 text-center text-nowrap mx-0.5 px-1 py-0.5 rounded-sm font-google_sans_text">
+                      <td className="text-black bg-gray-100 text-end text-nowrap align-middle border-slate-200 p-1.5 border-l">
+                        <kbd className="relative bg-gray-200 inline-block leading-4 min-h-5 min-w-5 text-center text-nowrap mx-0.5 px-1 py-0.5 rounded-sm font-google_sans_text">
                           +
                         </kbd>
                       </td>
                       <td
                         aria-label="Zoom in."
-                        className="text-black bg-gray-100 box-border caret-transparent text-nowrap align-middle p-1.5"
+                        className="text-black bg-gray-100 text-nowrap align-middle p-1.5"
                       >
                         Zoom in
                       </td>
                     </tr>
                     <tr className="text-neutral-400 bg-white box-border caret-transparent">
-                      <td className="text-black bg-white box-border caret-transparent text-end text-nowrap align-middle border-slate-200 p-1.5 border-l">
-                        <kbd className="relative bg-gray-200 box-border caret-transparent inline-block leading-4 min-h-5 min-w-5 text-center text-nowrap mx-0.5 px-1 py-0.5 rounded-sm font-google_sans_text">
+                      <td className="text-black bg-white text-end text-nowrap align-middle border-slate-200 p-1.5 border-l">
+                        <kbd className="relative bg-gray-200 inline-block leading-4 min-h-5 min-w-5 text-center text-nowrap mx-0.5 px-1 py-0.5 rounded-sm font-google_sans_text">
                           -
                         </kbd>
                       </td>
                       <td
                         aria-label="Zoom out."
-                        className="text-black bg-white box-border caret-transparent text-nowrap align-middle p-1.5"
+                        className="text-black bg-white text-nowrap align-middle p-1.5"
                       >
                         Zoom out
                       </td>
                     </tr>
                     <tr className="bg-gray-100 box-border caret-transparent">
-                      <td className="text-black bg-gray-100 box-border caret-transparent text-end text-nowrap align-middle border-slate-200 p-1.5 border-l">
-                        <kbd className="relative bg-gray-200 box-border caret-transparent inline-block leading-4 min-h-5 min-w-5 text-center text-nowrap mx-0.5 px-1 py-0.5 rounded-sm font-google_sans_text">
+                      <td className="text-black bg-gray-100 text-end text-nowrap align-middle border-slate-200 p-1.5 border-l">
+                        <kbd className="relative bg-gray-200 inline-block leading-4 min-h-5 min-w-5 text-center text-nowrap mx-0.5 px-1 py-0.5 rounded-sm font-google_sans_text">
                           Home
                         </kbd>
                       </td>
                       <td
                         aria-label="Jump left by 75%."
-                        className="text-black bg-gray-100 box-border caret-transparent text-nowrap align-middle p-1.5"
+                        className="text-black bg-gray-100 text-nowrap align-middle p-1.5"
                       >
                         Jump left by 75%
                       </td>
                     </tr>
                     <tr className="text-neutral-400 bg-white box-border caret-transparent">
-                      <td className="text-black bg-white box-border caret-transparent text-end text-nowrap align-middle border-slate-200 p-1.5 border-l">
-                        <kbd className="relative bg-gray-200 box-border caret-transparent inline-block leading-4 min-h-5 min-w-5 text-center text-nowrap mx-0.5 px-1 py-0.5 rounded-sm font-google_sans_text">
+                      <td className="text-black bg-white text-end text-nowrap align-middle border-slate-200 p-1.5 border-l">
+                        <kbd className="relative bg-gray-200 inline-block leading-4 min-h-5 min-w-5 text-center text-nowrap mx-0.5 px-1 py-0.5 rounded-sm font-google_sans_text">
                           End
                         </kbd>
                       </td>
                       <td
                         aria-label="Jump right by 75%."
-                        className="text-black bg-white box-border caret-transparent text-nowrap align-middle p-1.5"
+                        className="text-black bg-white text-nowrap align-middle p-1.5"
                       >
                         Jump right by 75%
                       </td>
                     </tr>
                     <tr className="bg-gray-100 box-border caret-transparent">
-                      <td className="text-black bg-gray-100 box-border caret-transparent text-end text-nowrap align-middle border-slate-200 p-1.5 border-l">
-                        <kbd className="relative bg-gray-200 box-border caret-transparent inline-block leading-4 min-h-5 min-w-5 text-center text-nowrap mx-0.5 px-1 py-0.5 rounded-sm font-google_sans_text">
+                      <td className="text-black bg-gray-100 text-end text-nowrap align-middle border-slate-200 p-1.5 border-l">
+                        <kbd className="relative bg-gray-200 inline-block leading-4 min-h-5 min-w-5 text-center text-nowrap mx-0.5 px-1 py-0.5 rounded-sm font-google_sans_text">
                           Page Up
                         </kbd>
                       </td>
                       <td
                         aria-label="Jump up by 75%."
-                        className="text-black bg-gray-100 box-border caret-transparent text-nowrap align-middle p-1.5"
+                        className="text-black bg-gray-100 text-nowrap align-middle p-1.5"
                       >
                         Jump up by 75%
                       </td>
                     </tr>
                     <tr className="text-neutral-400 bg-white box-border caret-transparent">
-                      <td className="text-black bg-white box-border caret-transparent text-end text-nowrap align-middle border-slate-200 p-1.5 border-l">
-                        <kbd className="relative bg-gray-200 box-border caret-transparent inline-block leading-4 min-h-5 min-w-5 text-center text-nowrap mx-0.5 px-1 py-0.5 rounded-sm font-google_sans_text">
+                      <td className="text-black bg-white text-end text-nowrap align-middle border-slate-200 p-1.5 border-l">
+                        <kbd className="relative bg-gray-200 inline-block leading-4 min-h-5 min-w-5 text-center text-nowrap mx-0.5 px-1 py-0.5 rounded-sm font-google_sans_text">
                           Page Down
                         </kbd>
                       </td>
                       <td
                         aria-label="Jump down by 75%."
-                        className="text-black bg-white box-border caret-transparent text-nowrap align-middle p-1.5"
+                        className="text-black bg-white text-nowrap align-middle p-1.5"
                       >
                         Jump down by 75%
                       </td>
@@ -300,8 +300,8 @@ export const MapContainer = () => {
                   <div className="absolute caret-transparent w-full z-[104] left-0 top-0"></div>
                   <div className="absolute caret-transparent w-full z-[105] left-0 top-0"></div>
                   <div className="absolute caret-transparent w-full z-[106] left-0 top-0">
-                    <div className="box-border caret-transparent contents"></div>
-                    <span className="absolute box-border caret-transparent block h-px text-nowrap w-px overflow-hidden -m-px"></span>
+                    <div className="contents"></div>
+                    <span className="absolute block h-px text-nowrap w-px overflow-hidden -m-px"></span>
                     <div
                       aria-label="1290 N. Palm Avenue"
                       role="img"
@@ -318,7 +318,7 @@ export const MapContainer = () => {
                       >
                         <area
                           title="1290 N. Palm Avenue"
-                          className="absolute box-border caret-transparent block left-0 top-0"
+                          className="absolute block left-0 top-0"
                         />
                       </map>
                     </div>
@@ -750,7 +750,7 @@ export const MapContainer = () => {
                       <div className="caret-transparent w-px"></div>
                       <div className="bg-neutral-100 caret-transparent h-full ml-px"></div>
                     </div>
-                    <div className="relative text-black text-[10px] box-border caret-transparent inline-block text-right text-nowrap align-middle px-1.5">
+                    <div className="relative text-black text-[10px] inline-block text-right text-nowrap align-middle px-1.5">
                       <button
                         aria-label="Keyboard shortcuts"
                         title="Keyboard shortcuts"
@@ -768,7 +768,7 @@ export const MapContainer = () => {
                       <div className="caret-transparent w-px"></div>
                       <div className="bg-neutral-100 caret-transparent h-full ml-px"></div>
                     </div>
-                    <div className="relative text-black text-[10px] box-border caret-transparent inline-block text-right text-nowrap align-middle px-1.5">
+                    <div className="relative text-black text-[10px] inline-block text-right text-nowrap align-middle px-1.5">
                       <button
                         aria-label="Map Data"
                         title="Map Data"
@@ -777,7 +777,7 @@ export const MapContainer = () => {
                       >
                         Map Data
                       </button>
-                      <span className="box-border caret-transparent hidden outline-offset-[3px] text-nowrap md:inline">
+                      <span className="hidden outline-offset-[3px] text-nowrap md:inline">
                         Map data ©2025
                       </span>
                     </div>
@@ -798,8 +798,8 @@ export const MapContainer = () => {
                     <div className="caret-transparent w-px"></div>
                     <div className="bg-neutral-100 caret-transparent h-full ml-px"></div>
                   </div>
-                  <div className="relative text-[10px] box-border caret-transparent inline-block text-right text-nowrap align-middle px-1.5 font-roboto">
-                    <span className="box-border caret-transparent outline-offset-[3px] text-nowrap">
+                  <div className="relative text-[10px] inline-block text-right text-nowrap align-middle px-1.5 font-roboto">
+                    <span className="outline-offset-[3px] text-nowrap">
                       100 m 
                     </span>
                     <div className="relative caret-transparent inline-block h-2 text-nowrap w-[51px] -bottom-px">
@@ -811,7 +811,7 @@ export const MapContainer = () => {
                       <div className="absolute bg-black caret-transparent h-1.5 text-nowrap w-0.5 right-px bottom-px"></div>
                     </div>
                   </div>
-                  <span className="text-[10px] box-border caret-transparent hidden outline-offset-[3px]">
+                  <span className="text-[10px] hidden outline-offset-[3px]">
                     Click to toggle between metric and imperial units
                   </span>
                 </button>
@@ -820,11 +820,11 @@ export const MapContainer = () => {
                     <div className="caret-transparent w-px"></div>
                     <div className="bg-neutral-100 caret-transparent h-full ml-px"></div>
                   </div>
-                  <div className="relative text-black text-[10px] box-border caret-transparent inline-block text-right text-nowrap align-middle px-1.5">
+                  <div className="relative text-black text-[10px] inline-block text-right text-nowrap align-middle px-1.5">
                     <a
                       aria-label="Terms (opens in new tab)"
                       href="https://www.google.com/intl/en-US_US/help/terms_maps.html"
-                      className="box-border caret-transparent max-w-full outline-offset-[3px] text-nowrap"
+                      className="max-w-full outline-offset-[3px] text-nowrap"
                     >
                       Terms
                     </a>
@@ -835,11 +835,11 @@ export const MapContainer = () => {
                     <div className="caret-transparent w-px"></div>
                     <div className="bg-neutral-100 caret-transparent h-full ml-px"></div>
                   </div>
-                  <div className="relative text-black text-[10px] box-border caret-transparent inline-block text-right text-nowrap align-middle px-1.5">
+                  <div className="relative text-black text-[10px] inline-block text-right text-nowrap align-middle px-1.5">
                     <a
                       title="Report errors in the road map or imagery to Google"
                       href="https://www.google.com/maps/@27.335521,-82.5446597,16z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3"
-                      className="relative box-border caret-transparent max-w-full outline-offset-[3px] text-nowrap"
+                      className="relative max-w-full outline-offset-[3px] text-nowrap"
                     >
                       Report a map error
                     </a>

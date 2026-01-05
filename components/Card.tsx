@@ -15,7 +15,7 @@ export const Card = ({
   return (
     <div
       className={cn(
-        "relative bg-white shadow-[0_0_10px_0_#d1d7da] box-border caret-transparent rounded-[25px]",
+        "relative bg-white shadow-[0_0_10px_0_#d1d7da] rounded-[25px]",
         padding === "default" ? "p-[3%]" : "",
         className
       )}

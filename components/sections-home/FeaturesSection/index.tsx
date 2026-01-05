@@ -3,7 +3,7 @@ import { Container } from "@/components/Container";
 
 export const FeaturesSection = () => {
   return (
-    <div className="text-brand bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full py-12 md:py-16">
+    <div className="text-brand bg-gray-100 clear-both float-left min-h-[100px] w-full py-12 md:py-16">
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
           {/* Card 1: We're Always Here */}
@@ -49,11 +49,10 @@ export const FeaturesSection = () => {
             <div className="text-neutral-600 text-[15px] leading-relaxed space-y-3 font-museo_sans_rounded">
               <p>Your mental health journey is yours alone.</p>
               <p>
-                That&apos;s why{" "}
-                <strong className="text-brand">mindmood</strong> is fully
-                HIPAA-certified and engineered with security at its core. Every
-                chat, every note, every self-care moment stays completely
-                private and confidential.
+                That&apos;s why <strong className="text-brand">mindmood</strong>{" "}
+                is fully HIPAA-certified and engineered with security at its
+                core. Every chat, every note, every self-care moment stays
+                completely private and confidential.
               </p>
               <p>Because feeling safe is the first step to feeling better.</p>
             </div>

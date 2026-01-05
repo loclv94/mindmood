@@ -23,7 +23,7 @@ export const HeroSection = () => {
           and ROI.
         </h3>
 
-        <div className="box-border caret-transparent clear-both text-center">
+        <div className="clear-both text-center">
           <HeroButton />
         </div>
       </Container>

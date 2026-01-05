@@ -25,42 +25,42 @@ export default function BusinessPage() {
 
       <WorkplaceSection />
 
-      <div className="text-brand bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
+      <div className="text-brand bg-gray-100 clear-both float-left min-h-[100px] w-full">
         <Container>
           <IntegrationSection />
         </Container>
       </div>
-      <div className="text-brand bg-white box-border caret-transparent clear-both float-left w-full">
+      <div className="text-brand bg-white clear-both float-left w-full">
         <Container>
           <TeamSection />
         </Container>
       </div>
-      <div className="text-brand bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
+      <div className="text-brand bg-gray-100 clear-both float-left min-h-[100px] w-full">
         <Container>
           <CarouselSection />
         </Container>
       </div>
-      <div className="text-brand bg-white box-border caret-transparent clear-both float-left w-full">
+      <div className="text-brand bg-white clear-both float-left w-full">
         <Container>
           <WhyMattersSection />
         </Container>
       </div>
-      <div className="text-brand bg-white box-border caret-transparent clear-both float-left w-full ml-0 md:w-[70%] md:ml-[15%]">
+      <div className="text-brand bg-white clear-both float-left w-full ml-0 md:w-[70%] md:ml-[15%]">
         <Container>
           <CTASection />
         </Container>
       </div>
-      <div className="text-brand bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
+      <div className="text-brand bg-gray-100 clear-both float-left min-h-[100px] w-full">
         <Container>
           <ContactFormSection />
         </Container>
       </div>
-      <div className="relative text-brand bg-white box-border caret-transparent clear-both border-slate-200 border-t">
+      <div className="relative text-brand bg-white clear-both border-slate-200 border-t">
         <Container>
           <DisclaimerSection />
         </Container>
       </div>
-      <div className="text-brand bg-gray-100 box-border caret-transparent clear-both float-left min-h-[100px] w-full">
+      <div className="text-brand bg-gray-100 clear-both float-left min-h-[100px] w-full">
         <Container>
           <CompanyInfoSection />
         </Container>

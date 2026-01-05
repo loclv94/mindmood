@@ -10,8 +10,8 @@ export const PageHeader = () => {
         <div className="box-border caret-transparent">
           <div className="box-border caret-transparent">
             <section className="box-border caret-transparent">
-              <div className="box-border caret-transparent clear-both">
-                <h1 className="text-[19.5px] box-border caret-transparent leading-[27.3px] text-center mb-3.5 font-museo_sans_rounded">
+              <div className="clear-both">
+                <h1 className="text-[19.5px] leading-[27.3px] text-center mb-3.5 font-museo_sans_rounded">
                   CONTACT
                 </h1>
               </div>

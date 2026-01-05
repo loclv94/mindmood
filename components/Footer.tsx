@@ -17,7 +17,7 @@ export const Footer = () => {
       <hr />
 
       <Container className="py-[15px] px-4">
-        <span className="box-border caret-transparent clear-both block text-center text-brand">
+        <span className="clear-both block text-center text-brand">
           ©Copyright 2025 MindMood.ai{" "}
         </span>
         <SocialLinks />

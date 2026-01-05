@@ -12,12 +12,12 @@ export const ManifestoSection = () => {
             width={498}
             height={134}
           />
-          <p className="text-neutral-600 text-[15.6px] font-light box-border caret-transparent leading-[24.96px] text-center my-[13.26px] font-museo_sans_rounded">
+          <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] text-center my-[13.26px] font-museo_sans_rounded">
             mindmood isn’t just another mental health app, it’s a movement to
             make care deeply compassionate and technologically advanced, scaling
             human empathy through AI to ensure support is available anytime.
           </p>
-          <p className="text-neutral-600 text-[15.6px] font-light box-border caret-transparent leading-[24.96px] text-center my-[13.26px] font-museo_sans_rounded">
+          <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] text-center my-[13.26px] font-museo_sans_rounded">
             <strong className="text-brand font-bold box-border caret-transparent">
               We are redefining the future of mental health.
             </strong>

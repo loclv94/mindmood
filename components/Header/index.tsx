@@ -10,7 +10,7 @@ export const Header = () => {
     <header
       aria-label="Header"
       role="banner"
-      className="relative text-brand box-border caret-transparent w-full z-100 md:sticky top-0 bg-white"
+      className="relative text-brand w-full z-100 md:sticky top-0 bg-white"
     >
       <Container className="h-auto leading-[80px] md:h-[118px] md:leading-[118px]">
         <div className="relative h-full leading-[80px] w-full md:leading-[118px]">

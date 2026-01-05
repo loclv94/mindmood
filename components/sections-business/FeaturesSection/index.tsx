@@ -7,7 +7,7 @@ export const FeaturesSection = () => {
   return (
     <Container className="py-12.5">
       <Card>
-        <h2 className="text-[26px] text-brand font-medium box-border caret-transparent leading-[36.4px] text-center font-museomoderno">
+        <h2 className="text-[26px] text-brand font-medium leading-[36.4px] text-center font-museomoderno">
           Why Businesses Choose AI Support through mindmood
         </h2>
       </Card>
