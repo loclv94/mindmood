@@ -25,16 +25,12 @@ export default function BusinessPage() {
 
       <WorkplaceSection />
 
-      <div className="text-brand bg-gray-100 clear-both float-left min-h-[100px] w-full">
-        <Container>
-          <IntegrationSection />
-        </Container>
-      </div>
-      <div className="text-brand bg-white clear-both float-left w-full">
-        <Container>
-          <TeamSection />
-        </Container>
-      </div>
+      <hr />
+
+      <IntegrationSection />
+
+      <TeamSection />
+
       <div className="text-brand bg-gray-100 clear-both float-left min-h-[100px] w-full">
         <Container>
           <CarouselSection />
