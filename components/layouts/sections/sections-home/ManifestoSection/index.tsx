@@ -3,7 +3,7 @@ import { Container } from "@/components/layouts/Container";
 
 export const ManifestoSection = () => {
   return (
-    <div className="relative bg-white y-12.5">
+    <div className="relative bg-white py-12.5">
       <Container>
         <div className="flex flex-col items-center justify-center">
           <Image

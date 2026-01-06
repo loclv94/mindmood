@@ -47,7 +47,7 @@ export const CoreValuesSection = () => {
                   width={450}
                   height={300}
                   sizes="(max-width: 450px) 100vw, 450px"
-                  className="relative aspect-[3/2] clear-both max-w-full w-[450px] mx-auto my-2.5 py-2.5"
+                  className="relative max-w-full w-[450px] h-auto mx-auto my-2.5 py-2.5"
                 />
               </p>
             </div>
@@ -64,7 +64,8 @@ export const CoreValuesSection = () => {
                   width={450}
                   height={300}
                   sizes="(max-width: 450px) 100vw, 450px"
-                  className="relative aspect-[3/2] clear-both max-w-full w-[450px] mx-auto my-2.5 py-2.5"
+                  className="relative max-w-full w-[450px] h-auto mx-auto my-2.5 py-2.5"
+                  style={{ height: "auto" }}
                 />
               </p>
             </div>
@@ -82,7 +83,7 @@ export const CoreValuesSection = () => {
                   width={450}
                   height={300}
                   sizes="(max-width: 450px) 100vw, 450px"
-                  className="relative aspect-[3/2] clear-both max-w-full w-[450px] mx-auto my-2.5 py-2.5"
+                  className="relative max-w-full w-[450px] h-auto mx-auto my-2.5 py-2.5"
                 />
               </p>
             </div>
@@ -99,7 +100,7 @@ export const CoreValuesSection = () => {
                   width={450}
                   height={300}
                   sizes="(max-width: 450px) 100vw, 450px"
-                  className="relative aspect-[3/2] clear-both max-w-full w-[450px] mx-auto my-2.5 py-2.5"
+                  className="relative max-w-full w-[450px] h-auto mx-auto my-2.5 py-2.5"
                 />
               </p>
             </div>
@@ -117,7 +118,7 @@ export const CoreValuesSection = () => {
                   width={450}
                   height={300}
                   sizes="(max-width: 450px) 100vw, 450px"
-                  className="relative aspect-[3/2] clear-both max-w-full w-[450px] mx-auto my-2.5 py-2.5"
+                  className="relative max-w-full w-[450px] h-auto mx-auto my-2.5 py-2.5"
                 />
               </p>
             </div>
@@ -134,7 +135,7 @@ export const CoreValuesSection = () => {
                   width={450}
                   height={300}
                   sizes="(max-width: 450px) 100vw, 450px"
-                  className="relative aspect-[3/2] clear-both max-w-full w-[450px] mx-auto my-2.5 py-2.5"
+                  className="relative  max-w-full w-[450px] h-auto mx-auto my-2.5 py-2.5"
                 />
               </p>
             </div>

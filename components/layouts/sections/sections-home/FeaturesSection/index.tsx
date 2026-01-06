@@ -5,7 +5,7 @@ export const FeaturesSection = () => {
   return (
     <div className="text-brand bg-gray-100 min-h-[100px] w-full py-12.5">
       <Container>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-18">
           {/* Card 1: We're Always Here */}
           <div className="bg-white rounded-3xl shadow-lg p-8 flex flex-col items-center text-center">
             <div className="mb-6 w-full relative aspect-square">
