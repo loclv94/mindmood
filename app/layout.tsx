@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "@/components/layouts/Header";
 import { Footer } from "@/components/layouts/Footer";
 import { ScrollToTop } from "@/components/ui/ScrollToTop";
+import { CookieConsent } from "@/components/ui/CookieConsent";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,6 +36,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <ScrollToTop />
+        <CookieConsent />
       </body>
     </html>
   );
