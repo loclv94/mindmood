@@ -1,4 +1,4 @@
-import { ContactSection } from "@/components/layouts/sections/sections-home/ContactSection";
+import { ContactSection } from "@/components/layouts/sections/ContactSection";
 
 import { SocialLinks } from "@/components/ui/SocialLinks";
 import { Container } from "@/components/layouts/Container";

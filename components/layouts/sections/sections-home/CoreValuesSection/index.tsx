@@ -1,48 +1,28 @@
+import Image from "next/image";
 import { Container } from "@/components/layouts/Container";
 import { ValueCard } from "./components/ValueCard";
+import { Divider } from "@/components/ui/divider/Divider";
 
 export const CoreValuesSection = () => {
   return (
     <Container>
-      <section className="">
-        <div className="clear-both">
-          <h2 className="text-[26px] text-brand font-medium leading-[36.4px] text-center mb-2.5 font-museomoderno">
-            <strong className="font-bold box-border caret-transparent">
-              That’s why mindmood is built with:
-            </strong>
-          </h2>
-        </div>
-      </section>
+      <h2 className="text-[26px] text-brand font-medium leading-[36.4px] text-center mb-2.5 font-museomoderno">
+        <strong className="font-bold box-border caret-transparent">
+          That’s why mindmood is built with:
+        </strong>
+      </h2>
 
-      <div className="table-fixed w-full mt-[50px] md:table">
-        <ValueCard
-          imageUrl="https://c.animaapp.com/mjr46i29PMq8a8/assets/ChatGPT-Image-Jul-29-2025-at-05_55_40-PM-300x300.png"
-          imageAlt=""
-          imageSizes="(max-width: 300px) 100vw, 300px"
-          variant="clear-left"
-        />
-        <div className="table-cell w-[6%]"></div>
-        <ValueCard
-          imageUrl="https://c.animaapp.com/mjr46i29PMq8a8/assets/ChatGPT-Image-Jul-29-2025-at-07_10_14-PM-300x300.png"
-          imageAlt=""
-          imageSizes="(max-width: 300px) 100vw, 300px"
-          variant=""
-        />
-        <div className="table-cell w-[6%]"></div>
+      <div className="w-full mt-[50px] grid grid-cols-1 md:grid-cols-3 gap-[6%] gap-y-12.5">
+        <ValueCard imageUrl="https://c.animaapp.com/mjr46i29PMq8a8/assets/ChatGPT-Image-Jul-29-2025-at-05_55_40-PM-300x300.png" />
+        <ValueCard imageUrl="https://c.animaapp.com/mjr46i29PMq8a8/assets/ChatGPT-Image-Jul-29-2025-at-07_10_14-PM-300x300.png" />
         <ValueCard imageUrl="https://c.animaapp.com/mjr46i29PMq8a8/assets/ChatGPT-Image-Jul-29-2025-at-05_59_04-PM-300x300.png" />
-      </div>
-      <div className="block float-left table-fixed w-full mt-[50px] md:table">
         <ValueCard imageUrl="https://c.animaapp.com/mjr46i29PMq8a8/assets/ChatGPT-Image-Jul-29-2025-at-06_31_24-PM-300x300.png" />
-        <div className="table-cell w-[6%]"></div>
         <ValueCard imageUrl="https://c.animaapp.com/mjr46i29PMq8a8/assets/ChatGPT-Image-Jul-29-2025-at-06_22_57-PM-300x300.png" />
-        <div className="table-cell w-[6%]"></div>
         <ValueCard imageUrl="https://c.animaapp.com/mjr46i29PMq8a8/assets/ChatGPT-Image-Jul-29-2025-at-07_08_01-PM-300x300.png" />
       </div>
-      <div className="relative box-border h-[25px] leading-[25px] w-full my-[30px]">
-        <span className="absolute block h-px w-full border-slate-200 -mt-px border-t left-0 top-2/4">
-          <span className="box-border caret-transparent"></span>
-        </span>
-      </div>
+
+      <Divider />
+
       <section className="box-border caret-transparent">
         <div className="clear-both">
           <h2 className="text-[26px] font-medium text-brand leading-[36.4px] text-center mb-2.5 font-museomoderno">
@@ -61,11 +41,13 @@ export const CoreValuesSection = () => {
           <section className="box-border caret-transparent">
             <div className="clear-both">
               <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] my-[13.26px] font-museo_sans_rounded">
-                <img
+                <Image
                   src="https://c.animaapp.com/mjr46i29PMq8a8/assets/ChatGPT-Image-Jul-30-2025-at-10_38_10-AM.png"
                   alt=""
-                  sizes="auto, (max-width: 450px) 100vw, 450px"
-                  className="relative aspect-[auto_450_/_300] clear-both max-w-full w-[450px] mx-auto my-2.5 py-2.5"
+                  width={450}
+                  height={300}
+                  sizes="(max-width: 450px) 100vw, 450px"
+                  className="relative aspect-[3/2] clear-both max-w-full w-[450px] mx-auto my-2.5 py-2.5"
                 />
               </p>
             </div>
@@ -76,11 +58,13 @@ export const CoreValuesSection = () => {
           <section className="box-border caret-transparent">
             <div className="clear-both">
               <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] my-[13.26px] font-museo_sans_rounded">
-                <img
+                <Image
                   src="https://c.animaapp.com/mjr46i29PMq8a8/assets/ChatGPT-Image-Jul-30-2025-at-10_42_09-AM.png"
                   alt=""
-                  sizes="auto, (max-width: 450px) 100vw, 450px"
-                  className="relative aspect-[auto_450_/_300] clear-both max-w-full w-[450px] mx-auto my-2.5 py-2.5"
+                  width={450}
+                  height={300}
+                  sizes="(max-width: 450px) 100vw, 450px"
+                  className="relative aspect-[3/2] clear-both max-w-full w-[450px] mx-auto my-2.5 py-2.5"
                 />
               </p>
             </div>
@@ -92,11 +76,13 @@ export const CoreValuesSection = () => {
           <section className="box-border caret-transparent">
             <div className="clear-both">
               <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] my-[13.26px] font-museo_sans_rounded">
-                <img
+                <Image
                   src="https://c.animaapp.com/mjr46i29PMq8a8/assets/ChatGPT-Image-Jul-30-2025-at-10_28_44-AM.png"
                   alt=""
-                  sizes="auto, (max-width: 450px) 100vw, 450px"
-                  className="relative aspect-[auto_450_/_300] clear-both max-w-full w-[450px] mx-auto my-2.5 py-2.5"
+                  width={450}
+                  height={300}
+                  sizes="(max-width: 450px) 100vw, 450px"
+                  className="relative aspect-[3/2] clear-both max-w-full w-[450px] mx-auto my-2.5 py-2.5"
                 />
               </p>
             </div>
@@ -107,11 +93,13 @@ export const CoreValuesSection = () => {
           <section className="box-border caret-transparent">
             <div className="clear-both">
               <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] my-[13.26px] font-museo_sans_rounded">
-                <img
+                <Image
                   src="https://c.animaapp.com/mjr46i29PMq8a8/assets/ChatGPT-Image-Jul-30-2025-at-10_52_21-AM.png"
                   alt=""
-                  sizes="auto, (max-width: 450px) 100vw, 450px"
-                  className="relative aspect-[auto_450_/_300] clear-both max-w-full w-[450px] mx-auto my-2.5 py-2.5"
+                  width={450}
+                  height={300}
+                  sizes="(max-width: 450px) 100vw, 450px"
+                  className="relative aspect-[3/2] clear-both max-w-full w-[450px] mx-auto my-2.5 py-2.5"
                 />
               </p>
             </div>
@@ -123,11 +111,13 @@ export const CoreValuesSection = () => {
           <section className="box-border caret-transparent">
             <div className="clear-both">
               <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] my-[13.26px] font-museo_sans_rounded">
-                <img
+                <Image
                   src="https://c.animaapp.com/mjr46i29PMq8a8/assets/ChatGPT-Image-Jul-30-2025-at-10_24_39-AM.png"
                   alt=""
-                  sizes="auto, (max-width: 450px) 100vw, 450px"
-                  className="relative aspect-[auto_450_/_300] clear-both max-w-full w-[450px] mx-auto my-2.5 py-2.5"
+                  width={450}
+                  height={300}
+                  sizes="(max-width: 450px) 100vw, 450px"
+                  className="relative aspect-[3/2] clear-both max-w-full w-[450px] mx-auto my-2.5 py-2.5"
                 />
               </p>
             </div>
@@ -138,11 +128,13 @@ export const CoreValuesSection = () => {
           <section className="box-border caret-transparent">
             <div className="clear-both">
               <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] my-[13.26px] font-museo_sans_rounded">
-                <img
+                <Image
                   src="https://c.animaapp.com/mjr46i29PMq8a8/assets/ChatGPT-Image-Jul-30-2025-at-10_21_32-AM.png"
                   alt=""
-                  sizes="auto, (max-width: 450px) 100vw, 450px"
-                  className="relative aspect-[auto_450_/_300] clear-both max-w-full w-[450px] mx-auto my-2.5 py-2.5"
+                  width={450}
+                  height={300}
+                  sizes="(max-width: 450px) 100vw, 450px"
+                  className="relative aspect-[3/2] clear-both max-w-full w-[450px] mx-auto my-2.5 py-2.5"
                 />
               </p>
             </div>

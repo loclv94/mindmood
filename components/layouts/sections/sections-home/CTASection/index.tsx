@@ -1,11 +1,12 @@
 import { Container } from "@/components/layouts/Container";
 import { Card } from "@/components/ui/cards/Card";
+import { GetInTouchButton } from "@/components/ui/buttons/GetInTouchButton";
 
 export const CTASection = () => {
   return (
     <div className="bg-white">
       <Container className="py-5 px-12.5">
-        <Card>
+        <Card className="text-center max-w-[1100px] mx-auto">
           <section className="box-border caret-transparent">
             <div className="clear-both">
               <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] my-[13.26px] font-museo_sans_rounded">
@@ -28,16 +29,7 @@ export const CTASection = () => {
               </h2>
             </div>
           </section>
-          <div className="clear-both text-center">
-            <a
-              href="https://mindmood.com/dev/contact-form/?iframe=true"
-              aria-label="GET IN TOUCH"
-              className="relative font-semibold bg-white inline-block leading-[15.6px] max-w-full min-w-[90px] border-brand my-[3px] pt-3 pb-2.5 px-4 border-2 border-solid font-museomoderno hover:text-white hover:bg-brand"
-            >
-              <span className="relative left-[-3.9px] z-[3] font-entypo_fontello before:accent-auto before:caret-transparent before:text-brand before:text-[13px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[15.6px] before:list-outside before:list-disc before:pointer-events-auto before:text-center before:indent-[0px] before:normal-case before:visible before:border-separate before:font-entypo_fontello"></span>
-              <span className="relative z-[3]">GET IN TOUCH</span>
-            </a>
-          </div>
+          <GetInTouchButton />
         </Card>
       </Container>
     </div>
