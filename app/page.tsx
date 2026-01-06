@@ -14,10 +14,9 @@ import { TogetherSection } from "@/components/layouts/sections/sections-home/Tog
 
 export default function HomePage() {
   return (
-    <div className="bg-gray-100 pt-0 md:pt-[168px]">
-      <div className="relative text-brand bg-white shadow-[rgba(0,0,0,0.1)_0px_1px_3px_0px_inset] clear-both z-[1]">
-        <HeroSlider />
-      </div>
+    <div className="bg-gray-100">
+      <HeroSlider />
+
       <div className="text-brand bg-white clear-both float-left w-full">
         <IntroSection />
       </div>

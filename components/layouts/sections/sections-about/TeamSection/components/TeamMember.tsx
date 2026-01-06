@@ -19,9 +19,14 @@ export const TeamMember = (props: TeamMemberProps) => {
           <Link
             href={props.imageUrl}
             aria-label={props.name}
-            className="overflow-hidden rounded-[3px]"
+            className="relative block w-full h-full overflow-hidden rounded-[3px]"
           >
-            <Image src={props.imageUrl} alt={props.name} fill />
+            <Image
+              src={props.imageUrl}
+              alt={props.name}
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 29.3333vw"
+            />
           </Link>
         </div>
       )}
