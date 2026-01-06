@@ -13,6 +13,7 @@ export const FeaturesSection = () => {
                 src="/assets/images/feature-1.png"
                 alt="Moon"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="object-contain"
               />
             </div>
@@ -39,6 +40,7 @@ export const FeaturesSection = () => {
               <Image
                 src="/assets/images/feature-2.png"
                 alt="Moon"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 fill
                 className="object-contain"
               />
@@ -64,6 +66,7 @@ export const FeaturesSection = () => {
               <Image
                 src="/assets/images/feature-3.png"
                 alt="Moon"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 fill
                 className="object-contain"
               />

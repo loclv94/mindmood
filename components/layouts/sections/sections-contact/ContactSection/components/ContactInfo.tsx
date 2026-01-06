@@ -3,10 +3,10 @@ import { EmailButton } from "@/components/ui/buttons/EmailButton";
 export const ContactInfo = () => {
   const address = "1290 N. Palm Avenue, Suite 108, Sarasota, FL 34236";
   // Using Google Maps embed without API key (free method)
-  // Alternative: Use embed API with NEXT_PUBLIC_GOOGLE_MAPS_API_KEY if you have one
-  const mapUrl = `https://www.google.com/maps?q=${encodeURIComponent(
+  // Using the embed URL format that minimizes JavaScript API calls
+  const mapUrl = `https://maps.google.com/maps?q=${encodeURIComponent(
     address
-  )}&output=embed`;
+  )}&ie=UTF8&iwloc=&output=embed`;
 
   return (
     <div>
