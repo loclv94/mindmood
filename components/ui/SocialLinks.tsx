@@ -3,7 +3,7 @@ import { FaFacebookF, FaXTwitter, FaInstagram } from "react-icons/fa6";
 
 export const SocialLinks = () => {
   return (
-    <ul className="relative flex justify-end z-[150] pl-0">
+    <ul className="relative flex justify-end z-30 pl-0 text-gray-700">
       <li className="h-full w-[30px] ">
         <Link
           href="https://www.facebook.com/mindmoodai/"
@@ -11,7 +11,7 @@ export const SocialLinks = () => {
           title="Link to Facebook"
           target="_blank"
           rel="noopener noreferrer"
-          className="relative block float-left h-full max-w-full min-h-[30px] w-[30px] z-[2] hover:text-slate-300 transition-colors"
+          className="relative block float-left h-full max-w-full min-h-[30px] w-[30px] z-2 hover:text-slate-300 transition-colors"
         >
           <FaFacebookF />
           <span className="sr-only">Link to Facebook</span>
@@ -24,7 +24,7 @@ export const SocialLinks = () => {
           title="Link to X"
           target="_blank"
           rel="noopener noreferrer"
-          className="relative block float-left h-full max-w-full min-h-[30px] w-[30px] z-[2] hover:text-slate-300 transition-colors"
+          className="relative block float-left h-full max-w-full min-h-[30px] w-[30px] z-2 hover:text-slate-300 transition-colors"
         >
           <FaXTwitter />
           <span className="sr-only">Link to X</span>
@@ -37,7 +37,7 @@ export const SocialLinks = () => {
           title="Link to Instagram"
           target="_blank"
           rel="noopener noreferrer"
-          className="relative block float-left h-full max-w-full min-h-[30px] w-[30px] z-[2] hover:text-slate-300 transition-colors"
+          className="relative block float-left h-full max-w-full min-h-[30px] w-[30px] z-2 hover:text-slate-300 transition-colors"
         >
           <FaInstagram />
           <span className="sr-only">Link to Instagram</span>

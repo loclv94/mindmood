@@ -65,7 +65,7 @@ export const NavMenu = () => {
           role="menuitem"
           className="relative block float-left leading-[30px] z-20 md:hidden"
         >
-          <a
+          <Link
             href="#"
             aria-label="Menu"
             className="font-semibold bg-transparent block h-[50px] leading-[50px] px-[13px] font-museo_sans_rounded md:bg-gray-100 hover:text-slate-400"
@@ -77,7 +77,7 @@ export const NavMenu = () => {
               </span>
             </span>
             <span className="hidden">Menu</span>
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

@@ -12,7 +12,7 @@ export const ContactSection = () => {
       </p>
       <p className="text-neutral-600 font-light leading-[22.1px] my-[11.05px] font-museo_sans_rounded">
         <Link
-          href="https://mindmood.com/privacy-policy/"
+          href="/privacy-policy/"
           className="text-brand max-w-full hover:text-slate-300"
         >
           Privacy Policy
