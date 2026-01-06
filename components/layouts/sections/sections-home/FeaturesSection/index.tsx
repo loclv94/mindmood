@@ -3,7 +3,7 @@ import { Container } from "@/components/layouts/Container";
 
 export const FeaturesSection = () => {
   return (
-    <div className="text-brand bg-gray-100 clear-both float-left min-h-[100px] w-full py-12 md:py-16">
+    <div className="text-brand bg-gray-100 min-h-[100px] w-full py-12.5">
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
           {/* Card 1: We're Always Here */}

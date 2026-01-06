@@ -9,6 +9,8 @@ export const HeroSlider = () => {
         className="object-cover w-full h-full"
         width={1500}
         height={430}
+        loading="eager"
+        priority
       />
     </div>
   );

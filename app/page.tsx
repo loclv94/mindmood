@@ -17,9 +17,7 @@ export default function HomePage() {
     <div className="bg-gray-100">
       <HeroSlider />
 
-      <div className="text-brand bg-white clear-both float-left w-full">
-        <IntroSection />
-      </div>
+      <IntroSection />
 
       <FeaturesSection />
 
