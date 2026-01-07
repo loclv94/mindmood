@@ -3,12 +3,12 @@ import { Container } from "@/components/layouts/Container";
 
 export const FeaturesSection = () => {
   return (
-    <div className="text-brand bg-gray-100 min-h-[100px] w-full py-12.5">
+    <div className="text-brand bg-gray-100 min-h-[100px] w-full py-6 md:py-12.5">
       <Container>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-18">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-[6%]">
           {/* Card 1: We're Always Here */}
-          <div className="bg-white rounded-3xl shadow-lg p-8 flex flex-col items-center text-center">
-            <div className="mb-6 w-full relative aspect-square">
+          <div className="bg-white rounded-3xl shadow-lg p-6 md:p-8 flex flex-col items-center text-center">
+            <div className="mb-4 md:mb-6 w-full relative aspect-square">
               <Image
                 src="/assets/images/feature-1.png"
                 alt="Moon"
@@ -17,10 +17,10 @@ export const FeaturesSection = () => {
                 className="object-contain"
               />
             </div>
-            <h3 className="text-2xl font-bold text-brand mb-4 font-museo_sans_rounded">
+            <h3 className="text-xl md:text-2xl font-bold text-brand mb-3 md:mb-4 font-museo_sans_rounded">
               We&apos;re Always Here
             </h3>
-            <div className="text-neutral-600 text-[15px] leading-relaxed space-y-3 font-museo_sans_rounded">
+            <div className="text-neutral-600 text-[14px] md:text-[15px] leading-relaxed space-y-2 md:space-y-3 font-museo_sans_rounded">
               <p>
                 Life doesn&apos;t wait for business hours and neither do we.
               </p>
@@ -35,8 +35,8 @@ export const FeaturesSection = () => {
           </div>
 
           {/* Card 2: Your Privacy Matters */}
-          <div className="bg-white rounded-3xl shadow-lg p-8 flex flex-col items-center text-center">
-            <div className="mb-6 w-full relative aspect-square">
+          <div className="bg-white rounded-3xl shadow-lg p-6 md:p-8 flex flex-col items-center text-center">
+            <div className="mb-4 md:mb-6 w-full relative aspect-square">
               <Image
                 src="/assets/images/feature-2.png"
                 alt="Moon"
@@ -45,10 +45,10 @@ export const FeaturesSection = () => {
                 className="object-contain"
               />
             </div>
-            <h3 className="text-2xl font-bold text-brand mb-4 font-museo_sans_rounded">
+            <h3 className="text-xl md:text-2xl font-bold text-brand mb-3 md:mb-4 font-museo_sans_rounded">
               Your Privacy Matters
             </h3>
-            <div className="text-neutral-600 text-[15px] leading-relaxed space-y-3 font-museo_sans_rounded">
+            <div className="text-neutral-600 text-[14px] md:text-[15px] leading-relaxed space-y-2 md:space-y-3 font-museo_sans_rounded">
               <p>Your mental health journey is yours alone.</p>
               <p>
                 That&apos;s why <strong className="text-brand">mindmood</strong>{" "}
@@ -61,8 +61,8 @@ export const FeaturesSection = () => {
           </div>
 
           {/* Card 3: No Judgement, Only Care */}
-          <div className="bg-white rounded-3xl shadow-lg p-8 flex flex-col items-center text-center">
-            <div className="mb-6 w-full relative aspect-square">
+          <div className="bg-white rounded-3xl shadow-lg p-6 md:p-8 flex flex-col items-center text-center">
+            <div className="mb-4 md:mb-6 w-full relative aspect-square">
               <Image
                 src="/assets/images/feature-3.png"
                 alt="Moon"
@@ -71,10 +71,10 @@ export const FeaturesSection = () => {
                 className="object-contain"
               />
             </div>
-            <h3 className="text-2xl font-bold text-brand mb-4 font-museo_sans_rounded">
+            <h3 className="text-xl md:text-2xl font-bold text-brand mb-3 md:mb-4 font-museo_sans_rounded">
               No Judgement, Only Care.
             </h3>
-            <div className="text-neutral-600 text-[15px] leading-relaxed space-y-3 font-museo_sans_rounded">
+            <div className="text-neutral-600 text-[14px] md:text-[15px] leading-relaxed space-y-2 md:space-y-3 font-museo_sans_rounded">
               <p>We believe every mind deserves kindness.</p>
               <p>
                 <strong className="text-brand">mindmood</strong> is built on

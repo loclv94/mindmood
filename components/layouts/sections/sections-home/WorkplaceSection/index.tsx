@@ -14,21 +14,21 @@ export const WorkplaceSection = () => {
         </h2>
       </Card>
 
-      <div className="mt-12.5" />
+      <div className="mt-6 md:mt-12.5" />
 
       {/* Two Column Layout */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-18">
         {/* Left Card - Text Content */}
         <Card className="p-6 md:p-9">
           <div className="clear-both">
-            <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] my-[13.26px] font-museo_sans_rounded">
+            <p className="text-neutral-600 text-[14px] md:text-[15.6px] font-light leading-[22px] md:leading-[24.96px] my-[10px] md:my-[13.26px] font-museo_sans_rounded">
               mindmood makes it simple to care for your employees with fast,
               compassionate mental health support. Our AI offers 24/7 guidance
               and knows when to connect someone with a human therapist or
               escalate to crisis care, so your team always feels safe and
               supported.
             </p>
-            <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] my-[13.26px] font-museo_sans_rounded">
+            <p className="text-neutral-600 text-[14px] md:text-[15.6px] font-light leading-[22px] md:leading-[24.96px] my-[10px] md:my-[13.26px] font-museo_sans_rounded">
               Seamlessly integrate mindmood into your systems to create a
               healthier, happier workplace where mental wellbeing is a priority.
             </p>

@@ -11,7 +11,7 @@ export const TeamMemberRow = ({
   bioParagraphs,
 }: TeamMemberRowProps) => {
   return (
-    <div className="flex flex-col md:flex-row gap-18 mt-12.5">
+    <div className="flex flex-col md:flex-row gap-6 md:gap-18 mt-6 md:mt-12.5">
       <TeamMember {...member} />
       <TeamMemberBio paragraphs={bioParagraphs} />
     </div>

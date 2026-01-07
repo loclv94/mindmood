@@ -31,8 +31,8 @@ export const TeamMember = (props: TeamMemberProps) => {
         </div>
       )}
 
-      <div className="flex items-center gap-2.5 mt-10">
-        <h3 className="text-[16.9px] leading-[23.66px] text-brand font-museo_sans_rounded">
+      <div className="flex items-center gap-2.5 mt-6 md:mt-10">
+        <h3 className="text-[14px] md:text-[16.9px] leading-[20px] md:leading-[23.66px] text-brand font-museo_sans_rounded">
           {props.name}
         </h3>
         <div className="flex-1">

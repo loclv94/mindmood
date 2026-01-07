@@ -49,9 +49,9 @@ const testimonials: Testimonial[] = [
 
 export const TestimonialSlider = () => {
   return (
-    <div className="bg-white py-12.5" suppressHydrationWarning>
+    <div className="bg-white py-6 md:py-12.5" suppressHydrationWarning>
       <Container>
-        <div className="relative py-7.5">
+        <div className="relative py-4 md:py-7.5">
           <Swiper
             modules={[Navigation]}
             navigation={{
@@ -66,7 +66,7 @@ export const TestimonialSlider = () => {
             {testimonials.map((testimonial, index) => (
               <SwiperSlide key={index}>
                 <div className="flex flex-col items-center justify-center">
-                  <blockquote className="text-brand font-extrabold italic text-lg md:text-xl text-center px-12 font-museo_sans_rounded pointer-events-none">
+                  <blockquote className="text-brand font-extrabold italic text-base md:text-lg lg:text-xl text-center px-4 md:px-12 font-museo_sans_rounded pointer-events-none">
                     &ldquo;{testimonial.quote}&rdquo;
                   </blockquote>
 

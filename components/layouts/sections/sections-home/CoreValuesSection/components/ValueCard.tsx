@@ -13,14 +13,14 @@ export const ValueCard = (props: ValueCardProps) => {
   const alt = props.imageAlt || "";
 
   return (
-    <Card className="p-9">
+    <Card className="p-6 md:p-9">
       <Image
         src={props.imageUrl}
         alt={alt}
         width={300}
         height={300}
-        sizes={sizes}
-        className="relative w-full mx-auto my-2.5 py-2.5"
+        sizes="(max-width: 768px) 100vw, 300px"
+        className="relative w-full mx-auto my-2 md:my-2.5 py-2 md:py-2.5"
       />
     </Card>
   );

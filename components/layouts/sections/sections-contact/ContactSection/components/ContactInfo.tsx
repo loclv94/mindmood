@@ -10,10 +10,10 @@ export const ContactInfo = () => {
 
   return (
     <div>
-      <h3 className="text-[16.9px] leading-[23.66px] mb-2 font-museo_sans_rounded">
+      <h3 className="text-[14px] md:text-[16.9px] leading-[20px] md:leading-[23.66px] mb-2 font-museo_sans_rounded">
         If you&apos;d like to get in touch:
       </h3>
-      <h2 className="text-[26px] font-medium leading-[36.4px] mb-2.5 font-museomoderno">
+      <h2 className="text-[20px] md:text-[26px] font-medium leading-[28px] md:leading-[36.4px] mb-2 md:mb-2.5 font-museomoderno">
         1290 N. Palm Avenue (Bay Plaza Exec Ctr)
         <br className="box-border caret-transparent" />
         Suite 108
@@ -25,16 +25,16 @@ export const ContactInfo = () => {
         US
       </h2>
       <EmailButton />
-      <div className="mt-5 w-full">
+      <div className="mt-4 md:mt-5 w-full">
         <iframe
           src={mapUrl}
           width="100%"
-          height="450"
+          height="300"
           style={{ border: 0 }}
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          className="rounded-sm"
+          className="rounded-sm md:h-[450px]"
           title={`Google Map - ${address}`}
         ></iframe>
       </div>

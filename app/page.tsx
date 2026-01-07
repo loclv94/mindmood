@@ -23,23 +23,23 @@ export default function HomePage() {
 
       <MissionSection />
 
-      <div className="mt-12.5" />
+      <div className="mt-6 md:mt-12.5" />
 
       <WorkplaceSection />
 
-      <div className="mt-12.5" />
+      <div className="mt-6 md:mt-12.5" />
 
       <IndividualSection />
 
-      <div className="mt-12.5" />
+      <div className="mt-6 md:mt-12.5" />
 
       <ManifestoSection />
 
-      <div className="mt-12.5" />
+      <div className="mt-6 md:mt-12.5" />
 
       <CoreValuesSection />
 
-      <div className="mt-12.5" />
+      <div className="mt-6 md:mt-12.5" />
 
       <TestimonialSlider />
 

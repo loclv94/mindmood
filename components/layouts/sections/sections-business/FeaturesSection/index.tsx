@@ -5,13 +5,13 @@ import { Divider } from "@/components/ui/divider/Divider";
 
 export const FeaturesSection = () => {
   return (
-    <Container className="py-12.5">
+    <Container className="py-6 md:py-12.5">
       <Card>
-        <h2 className="text-[26px] text-brand font-medium leading-[36.4px] text-center font-museomoderno">
+        <h2 className="text-[20px] md:text-[26px] text-brand font-medium leading-[28px] md:leading-[36.4px] text-center font-museomoderno">
           Why Businesses Choose AI Support through mindmood
         </h2>
       </Card>
-      <div className="w-full mt-[50px] md:grid md:grid-cols-3 md:gap-18">
+      <div className="w-full mt-6 md:mt-[50px] md:grid md:grid-cols-3 md:gap-18">
         <FeatureCard
           imageUrl="https://c.animaapp.com/mjr478t1erIxQN/assets/ChatGPT-Image-Jul-29-2025-at-03_17_06-PM.png"
           imageAlt=""

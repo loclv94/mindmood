@@ -18,7 +18,7 @@ const statistics = [
 
 export const StatisticsGrid = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-18 mt-12.5">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-18 mt-6 md:mt-12.5">
       {statistics.map((stat, index) => (
         <Card key={stat.src} className="overflow-hidden p-6 md:p-8">
           <Image

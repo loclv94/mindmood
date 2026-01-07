@@ -1,12 +1,12 @@
 export const ContactForm = () => {
   return (
     <div className="relative ">
-      <h3 className="text-[16.9px] leading-[23.66px] mb-2 font-museo_sans_rounded">
+      <h3 className="text-[14px] md:text-[16.9px] leading-[20px] md:leading-[23.66px] mb-2 font-museo_sans_rounded">
         Send a message:
       </h3>
 
       <form aria-label="Contact form" className="mb-5">
-        <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] my-[13.26px] font-museo_sans_rounded">
+        <p className="text-neutral-600 text-[14px] md:text-[15.6px] font-light leading-[22px] md:leading-[24.96px] my-[10px] md:my-[13.26px] font-museo_sans_rounded">
           <label className="text-[14.352px] font-bold box-border caret-transparent">
             {" "}
             Your name*
@@ -21,7 +21,7 @@ export const ContactForm = () => {
             </span>
           </label>
         </p>
-        <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] my-[13.26px] font-museo_sans_rounded">
+        <p className="text-neutral-600 text-[14px] md:text-[15.6px] font-light leading-[22px] md:leading-[24.96px] my-[10px] md:my-[13.26px] font-museo_sans_rounded">
           <label className="text-[14.352px] font-bold box-border caret-transparent">
             {" "}
             Your email*
@@ -36,7 +36,7 @@ export const ContactForm = () => {
             </span>
           </label>
         </p>
-        <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] my-[13.26px] font-museo_sans_rounded">
+        <p className="text-neutral-600 text-[14px] md:text-[15.6px] font-light leading-[22px] md:leading-[24.96px] my-[10px] md:my-[13.26px] font-museo_sans_rounded">
           <label className="text-[14.352px] font-bold box-border caret-transparent">
             {" "}
             Reason for contact*
@@ -82,7 +82,7 @@ export const ContactForm = () => {
             </span>
           </label>
         </p>
-        <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] my-[13.26px] font-museo_sans_rounded">
+        <p className="text-neutral-600 text-[14px] md:text-[15.6px] font-light leading-[22px] md:leading-[24.96px] my-[10px] md:my-[13.26px] font-museo_sans_rounded">
           <input
             type="submit"
             value="SEND"

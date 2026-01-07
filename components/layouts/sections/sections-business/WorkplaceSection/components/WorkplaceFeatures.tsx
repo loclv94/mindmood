@@ -3,7 +3,7 @@ import { FeatureList } from "./FeatureList";
 export const WorkplaceFeatures = () => {
   return (
     <div className="">
-      <h3 className="text-[16.9px] leading-[23.66px] text-left mb-2 font-museo_sans_rounded">
+      <h3 className="text-[14px] md:text-[16.9px] leading-[20px] md:leading-[23.66px] text-left mb-2 font-museo_sans_rounded">
         FOR THE LONG TERM:
       </h3>
 
@@ -13,7 +13,7 @@ export const WorkplaceFeatures = () => {
         feature2Text="USE FOR LARGE PERIODS OF TIME"
       />
 
-      <h3 className="text-[16.9px] leading-[23.66px] text-left mb-2 font-museo_sans_rounded">
+      <h3 className="text-[14px] md:text-[16.9px] leading-[20px] md:leading-[23.66px] text-left mb-2 font-museo_sans_rounded">
         INTELLIGENT:
       </h3>
 
@@ -23,7 +23,7 @@ export const WorkplaceFeatures = () => {
         feature2Text="MULTIPLE SOTA HIGH PARAMETER LLM AGENTS WORKING TOGETHER"
       />
 
-      <h3 className="text-[16.9px] leading-[23.66px] text-left mb-2 font-museo_sans_rounded">
+      <h3 className="text-[14px] md:text-[16.9px] leading-[20px] md:leading-[23.66px] text-left mb-2 font-museo_sans_rounded">
         REALISTIC:
       </h3>
 
@@ -33,7 +33,7 @@ export const WorkplaceFeatures = () => {
         feature2Text="KIND AND NATURAL RESPONSE AND TONE"
       />
 
-      <h3 className="text-[16.9px] leading-[23.66px] text-left mb-2 font-museo_sans_rounded">
+      <h3 className="text-[14px] md:text-[16.9px] leading-[20px] md:leading-[23.66px] text-left mb-2 font-museo_sans_rounded">
         BUILT IN ESCALATION:
       </h3>
 

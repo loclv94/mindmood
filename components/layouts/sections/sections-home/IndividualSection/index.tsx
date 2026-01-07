@@ -13,7 +13,7 @@ export const IndividualSection = () => {
         </h2>
       </Card>
 
-      <div className="mt-12.5" />
+      <div className="mt-6 md:mt-12.5" />
 
       {/* Two Column Layout */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-18">
@@ -36,14 +36,14 @@ export const IndividualSection = () => {
         {/* Right Card - Image Content */}
         <Card className="p-6 md:p-9">
           <div className="clear-both">
-            <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] my-[13.26px] font-museo_sans_rounded">
+            <p className="text-neutral-600 text-[14px] md:text-[15.6px] font-light leading-[22px] md:leading-[24.96px] my-[10px] md:my-[13.26px] font-museo_sans_rounded">
               Whether it’s stress at work, relationship struggles, or just
               needing someone to talk to, mindmood is here for you.
             </p>
-            <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] my-[13.26px] font-museo_sans_rounded">
+            <p className="text-neutral-600 text-[14px] md:text-[15.6px] font-light leading-[22px] md:leading-[24.96px] my-[10px] md:my-[13.26px] font-museo_sans_rounded">
               Open up freely and explore your thoughts without fear of judgment.
             </p>
-            <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] my-[13.26px] font-museo_sans_rounded">
+            <p className="text-neutral-600 text-[14px] md:text-[15.6px] font-light leading-[22px] md:leading-[24.96px] my-[10px] md:my-[13.26px] font-museo_sans_rounded">
               Our AI-powered support provides a safe, caring space to help you
               navigate your emotions and find guidance whenever you need it
               most.

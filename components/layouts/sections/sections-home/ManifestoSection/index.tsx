@@ -3,7 +3,7 @@ import { Container } from "@/components/layouts/Container";
 
 export const ManifestoSection = () => {
   return (
-    <div className="relative bg-white py-12.5">
+    <div className="relative bg-white py-6 md:py-12.5">
       <Container>
         <div className="flex flex-col items-center justify-center">
           <Image
@@ -11,13 +11,14 @@ export const ManifestoSection = () => {
             alt="MindMood logo"
             width={498}
             height={134}
+            className="w-full max-w-[300px] md:max-w-[498px] h-auto"
           />
-          <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] text-center my-[13.26px] font-museo_sans_rounded">
+          <p className="text-neutral-600 text-[14px] md:text-[15.6px] font-light leading-[22px] md:leading-[24.96px] text-center my-[10px] md:my-[13.26px] font-museo_sans_rounded">
             mindmood isn’t just another mental health app, it’s a movement to
             make care deeply compassionate and technologically advanced, scaling
             human empathy through AI to ensure support is available anytime.
           </p>
-          <p className="text-neutral-600 text-[15.6px] font-light leading-[24.96px] text-center my-[13.26px] font-museo_sans_rounded">
+          <p className="text-neutral-600 text-[14px] md:text-[15.6px] font-light leading-[22px] md:leading-[24.96px] text-center my-[10px] md:my-[13.26px] font-museo_sans_rounded">
             <strong className="text-brand font-bold box-border caret-transparent">
               We are redefining the future of mental health.
             </strong>

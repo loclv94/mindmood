@@ -51,7 +51,7 @@ const teamMembers: TeamMemberData[] = [
 
 export const TeamSection = () => {
   return (
-    <Container className="py-12.5">
+    <Container className="py-6 md:py-12.5">
       {teamMembers.map((teamMember, index) => (
         <div key={teamMember.member.name}>
           {index > 0 && <Divider />}
